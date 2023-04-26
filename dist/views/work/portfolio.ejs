@@ -1,0 +1,136 @@
+<!-- Head Top -->
+<%- include ("../components/headTop.ejs") %>
+
+<!-- Meta [Start] -->
+<title>App Development Portfolio | Web Development Portfolio | Scalelot </title>
+<meta name="title" content=" App Development Portfolio | Web Development Portfolio | Scalelot"> 
+<meta name="description" content="You can see our portfolio consists of customized mobile app development, website development, web app development, graphics design, and UI UX design.">
+<meta name="author" content="Scalelot Technologies">
+<meta name="copyright" content="Scalelot Technologies">
+<meta name="robots" content="index, follow">
+<meta name="googlebot" content="index,follow" />
+<meta name="googlebot" content="index, follow, max-snippet:-1, max-image-preview:large" />
+<meta name="Googlebot" content="index, follow, max-snippet:100, max-image-preview:standard, max-image-preview:large" />
+<meta name="Googlebot-Image" content="max-image-preview:standard, max-image-preview:large" />
+<meta name="Googlebot-Video" content="max-video-preview:-1">
+<meta name="yahoobot" content="index, follow" />
+<meta name="msnbot" content="index,follow" />
+<meta name="rating" content="general">
+<meta name="keywords" content="App Development Portfolio, Web Development Portfolio">
+<meta property="og:title" content="App Development Portfolio | Web Development Portfolio | Scalelot ">
+<meta property="og:site_name" content="Scalelot Technologies">
+<meta property="og:url" content="https://scalelot.com/work/portfolio">
+<meta property="og:description" content="You can see our portfolio consists of customized mobile app development, website development, web app development, graphics design, and UI UX design.">
+<meta property="og:type" content="website">
+<meta property="og:image" content="https://scalelot.com/assets/images/scalelot-logo.svg">
+<meta property="og:image:width" content="850"/>
+<meta property="og:image:height" content="850"/>
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="App Development Portfolio | Web Development Portfolio | Scalelot ">
+<meta name="twitter:site" content="@ScalelotT"> 
+<meta name="twitter:creator" content="@ScalelotT"/>
+<meta name="twitter:description" content="You can see our portfolio consists of customized mobile app development, website development, web app development, graphics design, and UI UX design.">
+<meta name="twitter:image" content="https://scalelot.com/assets/images/scalelot-logo.svg">
+<meta name="twitter:image:alt" content="App & Web Development Portfolio">
+<link rel="canonical" href="https://scalelot.com/work/portfolio"/>
+<!-- Meta [End] -->
+
+<!-- Head Bottom -->
+<script type="application/ld+json">{"@context":"https://schema.org/","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://scalelot.com/"},{"@type":"ListItem","position":2,"name":"Work","item":"https://scalelot.com/work"},{"@type":"ListItem","position":3,"name":"Portfolio","item":"https://scalelot.com/work/portfolio"}]}</script>
+
+<%- include ("../components/headBot.ejs") %>
+
+<!-- Our Best Work -->
+<section class="pb-12 pt-16 lg:py-16 xl:py-24 2xl:py-28">
+  <div class="portfolio section max-w-screen-2xl mx-auto flex flex-wrap px-5 lg:px-9 items-center space-y-4 md:space-y-8 lg:space-y-16">
+    <div class="text-center w-full flex flex-wrap items-center justify-center xl:justify-between space-y-3 md:space-y-0">
+      <h1 class="text-center text-3xl md:text-4xl xl:text-5xl 2xl:text-6xl">Our Best Work</h1>
+      <div id="myBtnContainer" class="active-text-secondary capitalize flexBox flex items-center 2xl:justify-center text-sm text-left lg:ml-auto overflow-x-auto py-2 rounded-md bg-gray-100 dark:bg-scalelot-primary shadow-slate-100 md:bg-transparent dark:md:bg-transparent md:py-0">
+        <a id="allPortfolio" href="javascript:void(0);" onclick="filterSelection(' ')" class="filterBtn hover:text-scalelot-secondary cursor-pointer mx-3 block active whitespace-nowrap">ALL</a>
+        <a href="javascript:void(0);" onclick="filterSelection('uiux_design')" class="filterBtn hover:text-scalelot-secondary cursor-pointer mx-3 block whitespace-nowrap">UI-UX</a>
+        <a href="javascript:void(0);" onclick="filterSelection('web_development')" class="filterBtn hover:text-scalelot-secondary cursor-pointer mx-3 block whitespace-nowrap">Web Development</a>
+        <a href="javascript:void(0);" onclick="filterSelection('mobile_development')" class="filterBtn hover:text-scalelot-secondary cursor-pointer mx-3 block whitespace-nowrap">Mobile Development</a>
+        <a href="javascript:void(0);" onclick="filterSelection('sales_funnels')" class="filterBtn hover:text-scalelot-secondary cursor-pointer mx-3 block whitespace-nowrap">Sales Funnels</a>
+        <a href="javascript:void(0);" onclick="filterSelection('graphic_design')" class="filterBtn hover:text-scalelot-secondary cursor-pointer mx-3 block whitespace-nowrap">Graphic Design</a>
+      </div>
+    </div>
+
+    <div class="physicianList w-full">
+      <input type='hidden' id='current_page' />
+      <input type='hidden' id='show_per_page' />
+      <div id="pagingBox" class="portfolio-gallery flex flex-wrap relative w-full">
+        <% portfolios.forEach(function(portfolio){ %>
+          <div class="portfolio-item hidden <%= portfolio.tags.join(' ') %> w-full md:w-1/2 xl:w-1/3 p-0 py-3 md:py-4 md:p-4 space-y-2.5 anim">
+            <a href="javascript:void(0);"
+               onclick='addActiveD("#pop1", "show", "<%= portfolio.title %>", "<%= portfolio.category %>", "<%= portfolio.description %>", "<%= portfolio.files[0] %>", "<%= portfolio.webFramework %>", "<%= portfolio.programmingLanguages %>", "<%= portfolio.miscellaneous %>", "<%= portfolio.libraries %>", "<%= portfolio.uiFrameworks %>", "<%= portfolio.designingLanguage %>", "<%= portfolio.designingTools %>", "<%= portfolio.rating %>", "<%= portfolio.pageLink %>")'
+               class="relative group block overflow-hidden text-gray-100 rounded-xl lg:rounded-3xl">
+              <span class="bg-gradient-to-t from-scalelot-jpIndigo to-transparent block absolute z-0 inset-0 w-full h-full opacity-100 md:opacity-0 group-hover:opacity-100"></span>
+              <span class="absolute anim w-9 h-[calc(100%+300px)] top-1/2 transform -translate-y-1/2 -rotate-45 bg-white opacity-30 md:opacity-0 group-hover:opacity-30 -right-9 md:right-full group-hover:-right-9 block delay-150"></span>
+              <!-- <img src="/assets/images/ourworkimg1.png" class="w-full anim" /> -->
+              <img src="/assets/images/dynamic-images/<%= portfolio.files[0] %>" alt="Scalelot Portfolio" class="w-full anim" />
+              <div class="absolute inset-x-0 bottom-0 w-full py-4 md:py-8 translate-x-5 md:translate-x-20 pr-7 xl:pr-10 group-hover:translate-x-5 opacity-100 md:opacity-0 group-hover:opacity-100 anim delay-300 flex items-end justify-between">
+                <div class="">
+                  <p><%= portfolio.category %></p>
+                  <h5 class="font-pop text-white"><%= portfolio.title %></h5>
+                </div>
+                <div class="text-xl whitespace-nowrap"><%= portfolio.rating %> <span class="text-2xl text-yellow-400">&#9733;</span></div>
+              </div>
+            </a>
+          </div>
+        <% }) %>
+      </div>
+    </div>
+<!--    <div id='page_navigation' class="mx-auto"></div>-->
+  </div>
+</section>
+<%- include ("../components/portfolio_pop.ejs") %>
+
+<script>
+  filterSelection("all"); // Execute the function and show all columns
+  function filterSelection(c) {
+    var x, i;
+    x = document.getElementsByClassName("portfolio-item");
+    if (c == "all") c = "";
+    // Add the "show" class (display:block) to the filtered elements, and remove the "show" class from the elements that are not selected
+    for (i = 0; i < x.length; i++) {
+      w3RemoveClass(x[i], "show");
+      if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show");
+    }
+  }
+
+  // Show filtered elements
+  function w3AddClass(element, name) {
+    var i, arr1, arr2;
+    arr1 = element.className.split(" ");
+    arr2 = name.split(" ");
+    for (i = 0; i < arr2.length; i++) {
+      if (arr1.indexOf(arr2[i]) == -1) {
+        element.className += " " + arr2[i];
+      }
+    }
+  }
+
+  // Hide elements that are not selected
+  function w3RemoveClass(element, name) {
+    var i, arr1, arr2;
+    arr1 = element.className.split(" ");
+    arr2 = name.split(" ");
+    for (i = 0; i < arr2.length; i++) {
+      while (arr1.indexOf(arr2[i]) > -1) {
+        arr1.splice(arr1.indexOf(arr2[i]), 1);
+      }
+    }
+    element.className = arr1.join(" ");
+  }
+
+  // Add active class to the current button (highlight it)
+  var btnContainer = document.getElementById("myBtnContainer");
+  var btns = btnContainer.getElementsByClassName("filterBtn");
+  for (var i = 0; i < btns.length; i++) {
+    btns[i].addEventListener("click", function () {
+      var current = document.getElementsByClassName("active");
+      current[0].className = current[0].className.replace(" active", "");
+      this.className += " active";
+    });
+  }
+</script>

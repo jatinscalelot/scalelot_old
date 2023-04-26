@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64.674" height="73.338" viewBox="0 0 64.674 73.338">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #e44d26;
+      }
+
+      .cls-2 {
+        fill: #f16529;
+      }
+
+      .cls-3 {
+        fill: #ebebeb;
+      }
+
+      .cls-4 {
+        fill: #fff;
+      }
+    </style>
+  </defs>
+  <g id="HTML5" transform="translate(0)">
+    <path id="Path_3957" data-name="Path 3957" class="cls-1" d="M80.483,166.629,74.6,100.6h64.674l-5.883,65.993-26.508,7.344" transform="translate(-74.6 -100.6)"/>
+    <path id="Path_3958" data-name="Path 3958" class="cls-2" d="M256,193.3V131h26.436l-5.045,56.331" transform="translate(-223.663 -125.581)"/>
+    <path id="Path_3959" data-name="Path 3959" class="cls-3" d="M142,176.3h20.322v8.093H150.877l.749,8.289h10.7v8.075H144.21m.357,4.064H152.7l.57,6.471,9.056,2.424v8.45l-16.614-4.635" transform="translate(-129.985 -162.805)"/>
+    <path id="Path_3960" data-name="Path 3960" class="cls-4" d="M276.086,176.3H255.8v8.093h19.538m-.731,8.289H255.8v8.093h9.983l-.945,10.518-9.038,2.424v8.414l16.579-4.6" transform="translate(-223.499 -162.805)"/>
+  </g>
+</svg>

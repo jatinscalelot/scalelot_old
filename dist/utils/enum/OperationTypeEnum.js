@@ -1,0 +1,24 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.OperationTypeEnum = void 0;
+var OperationTypeEnum;
+(function (OperationTypeEnum) {
+    OperationTypeEnum["ADD_CONTACT_US_QUERY"] = "AddContactUs";
+    OperationTypeEnum["GET_ALL_CONTACT_US"] = "GetAllContactUs";
+    OperationTypeEnum["CREATE_CAREER_QUERY"] = "CreateCareerQuary";
+    OperationTypeEnum["GET_ALL_CAREER_QUERY"] = "GetAllCareerQuaries";
+    OperationTypeEnum["LOGIN_SUCCESS"] = "LoginSuccess";
+    OperationTypeEnum["ADD_META_KEYWORDS"] = "AddMetaKeywords";
+    OperationTypeEnum["ADD_PORTFOLIO"] = "AddPortfolio";
+    OperationTypeEnum["GET_ALL_PORTFOLIO"] = "AddPortfolio";
+    OperationTypeEnum["ADD_TESTIMONIAL"] = "AddTestimonials";
+    OperationTypeEnum["AUTH_FAILURE"] = "AuthFailure";
+    OperationTypeEnum["NOT_FOUND"] = "NotFound";
+    OperationTypeEnum["FORBIDDEN"] = "Forbidden";
+    OperationTypeEnum["BAD_REQUEST"] = "BadRequest";
+    OperationTypeEnum["INTERNAL_ERROR"] = "InternalError";
+    OperationTypeEnum["SUCCESS_MSG"] = "SuccessMessage";
+    OperationTypeEnum["FAILURE_MESSAGE"] = "FailureMessage";
+    OperationTypeEnum["ACCESS_TOKEN_ERROR"] = "AccessTokenError";
+    OperationTypeEnum["TOKEN_REFRESH"] = "TokenRefres";
+})(OperationTypeEnum = exports.OperationTypeEnum || (exports.OperationTypeEnum = {}));

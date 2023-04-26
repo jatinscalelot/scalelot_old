@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="/assets/images/favicon.webp" />
+
+
+    <!-- Swiper CSS -->
+    <link rel="stylesheet" href="/assets/css/swiper-bundle.min.css" />
+    <!-- Menu -->
+    <link rel="stylesheet" href="/assets/css/select2.min.css" />
+    <!-- icomoon -->
+    <link rel="stylesheet" href="/assets/css/fonts.css">
+    <!-- Style CSS -->
+    <link rel="stylesheet" href="/assets/css/style.css" />
+    <!-- Menu -->
+    <link rel="stylesheet" href="/assets/css/mmenu.min.css" />
+
+    <style>
+			.mm-wrapper__blocker { background: #fff;background:transparent !important;opacity: .9;backdrop-filter: blur(5px); }
+			.dark .mm-wrapper__blocker { background: #052d60;background:transparent !important;opacity: .9;backdrop-filter: blur(5px); }
+
+      .mm-menu--theme-light {
+        --mm-color-background: #fff;
+        --mm-color-border: rgba(0, 0, 0, 0.05);
+      }
+      .dark .mm-menu--theme-light {
+        --mm-color-background: #01183A;
+        --mm-color-border: rgba(255, 255, 255, 0.05);
+        --mm-color-icon: rgba(255, 255, 255, 0.4);
+        --mm-color-text: rgba(255, 255, 255, 0.8);
+        --mm-color-text-dimmed: rgba(255, 255, 255, 0.4);
+        --mm-color-background-highlight: rgba(255, 255, 255, 0.05);
+        --mm-color-background-emphasis: rgba(0, 0, 0, 0.75);
+        --mm-color-focusring: #06c
+      }
+      .mm-menu--position-left, .mm-menu--position-left-front, .mm-menu--position-right, .mm-menu--position-right-front {
+        width: 100%;
+        max-width: 400px;
+      }
+      .mm-menu.mm-menu--opened {opacity: 1;}
+		</style>
+
+  </head>
+
+  <body class="anim">
+
+    <div id="page" class="anim overflow-x-hidden relative">
+
+      <div class="relative z-20">
+        <header class="relative top-0 inset-x-0 z-50">
+          <div class="flex flex-wrap items-center justify-between px-5 lg:px-9 py-4-">
+            <a href="/" class="scrollJS fixed top-2.5 2xl:top-5 left-5 z-50 block overflow-hidden w-9 md:w-11 hover:w-[180px] dark:hover:w-[180px] sm:hover:w-[210px] dark:sm:hover:w-[220px] lg:order-1 group transition-all duration-700">
+              <img src="/assets/images/scalelot-logo.svg" alt="Scalelot Logo" class="h-9 md:h-11 w-auto object-cover object-left dark:hidden" />
+              <img src="/assets/images/scalelot-footer-logo.svg" alt="Scalelot Logo" class="h-9 md:h-11 w-auto object-cover object-left hidden dark:block" />
+            </a>
+            <div class="scrollJS fixed top-2 lg:top-2.5 2xl:top-3 right-1 lg:right-5 z-50 flex flex-wrap items-center ml-5 xl:ml-10 space-x-4 md:space-x-6 xl:space-x-7 openOpacity backdrop-blur-md px-3 py-2 md:p-3 rounded-md transition-all duration-700">
+              <div class="text-3xl cursor-pointer text-center" onclick="toggleActive('html', 'dark');">
+                <span class="icon-light text-xl md:text-2xl hidden dark:block md:w-8"></span>
+                <span class="icon-dark text-xl md:text-2xl block dark:hidden md:w-8"></span>
+              </div>
+              <a href="#menu" id="hamMenu" class="is-cross-">
+                <span part="bars" class="relative block w-6 h-4 md:w-7 md:h-6">
+                  <span class="block absolute inset-x-0 h-0.5 rounded bg-current text-inherit opacity-100 bottom-full bar--top"></span>
+                  <span class="block absolute inset-x-0 h-0.5 rounded bg-current text-inherit opacity-100 bar--middle"></span>
+                  <span class="block absolute inset-x-0 h-0.5 rounded bg-current text-inherit opacity-100 top-0 bar--bottom"></span>
+                </span>
+              </a>
+            </div>
+          </div>
+
+          <!-- The menu -->
+          <nav id="menu" class="z-40 shadow-[0px 0 10px 1px rgba(0, 0, 0, 0.185)] border-l opacity-0">
+            <a href="#page" id="hamMenu" class="is-cross- absolute z-20 top-7 right-[calc(100%+20px)]">
+              <span part="bars" class="relative block w-7 h-6">
+                <span class="block absolute inset-x-0 h-0.5 rounded bg-current text-inherit opacity-100 bottom-full bar--top"></span>
+                <span class="block absolute inset-x-0 h-0.5 rounded bg-current text-inherit opacity-100 bar--middle"></span>
+                <span class="block absolute inset-x-0 h-0.5 rounded bg-current text-inherit opacity-100 top-0 bar--bottom"></span>
+              </span>
+            </a>
+            <ul class="topics">
+              <li><a class="text-xs md:text-sm xl:text-base hover:text-scalelot-secondary" href="/">Home</a></li>
+              <li><a class="text-xs md:text-sm xl:text-base hover:text-scalelot-secondary" href="/about-us">About US</a></li>
+              <li><a class="text-xs md:text-sm xl:text-base hover:text-scalelot-secondary" href="/services">Services</a>
+                <ul>
+                  <li><a class="text-xs md:text-sm xl:text-base hover:text-scalelot-secondary" href="/services/web-development">Web Development</a>
+                      <ul>
+                        <li><a class="text-xs md:text-sm xl:text-base hover:text-scalelot-secondary" href="/services/web-development/angular-development">Angular</a></li>
+                        <li><a class="text-xs md:text-sm xl:text-base hover:text-scalelot-secondary" href="/services/web-development/reactjs-development">Reactjs</a></li>
+                        <li><a class="text-xs md:text-sm xl:text-base hover:text-scalelot-secondary" href="/services/web-development/nodejs-development">Nodejs </a></li>
+                        <li><a class="text-xs md:text-sm xl:text-base hover:text-scalelot-secondary" href="/services/web-development/python-development">Python</a></li>
+                        <li><a class="text-xs md:text-sm xl:text-base hover:text-scalelot-secondary" href="/services/web-development/html5-development">Html5</a></li>
+                        <li><a class="text-xs md:text-sm xl:text-base hover:text-scalelot-secondary" href="/services/web-development/wordpress-development">Wordpress </a></li>
+                        <li><a class="text-xs md:text-sm xl:text-base hover:text-scalelot-secondary" href="/services/web-development/magento-development">Magento</a></li>
+                        <li><a class="text-xs md:text-sm xl:text-base hover:text-scalelot-secondary" href="/services/web-development/woocommerce-development">WooCommerce</a></li>
+                        <li><a class="text-xs md:text-sm xl:text-base hover:text-scalelot-secondary" href="/services/web-development/shopify-development">Shopify</a></li>
+                        <li><a class="text-xs md:text-sm xl:text-base hover:text-scalelot-secondary" href="/services/web-development/cms-website-development">CMS</a></li>
+                        <li><a class="text-xs md:text-sm xl:text-base hover:text-scalelot-secondary" href="/services/web-development/mongodb-database-design">Mongodb</a></li>
+                        <li><a class="text-xs md:text-sm xl:text-base hover:text-scalelot-secondary" href="/services/web-development/mysql-database-design">Mysql</a></li>
+                      </ul>
+                  </li>
+                  <li><a class="text-xs md:text-sm xl:text-base hover:text-scalelot-secondary" href="/services/mobile-app-development">Mobile Development</a>
+                      <ul>
+                        <li><a class="text-xs md:text-sm xl:text-base hover:text-scalelot-secondary" href="/services/mobile-app-development/ios-app-development">iOS</a></li>
+                        <li><a class="text-xs md:text-sm xl:text-base hover:text-scalelot-secondary" href="/services/mobile-app-development/android-app-development">Android</a></li>
+                        <li><a class="text-xs md:text-sm xl:text-base hover:text-scalelot-secondary" href="/services/mobile-app-development/hybrid-app-development">Hybrid </a></li>
+                        <li><a class="text-xs md:text-sm xl:text-base hover:text-scalelot-secondary" href="/services/mobile-app-development/flutter-app-development">Flutter</a></li>
+                        <li><a class="text-xs md:text-sm xl:text-base hover:text-scalelot-secondary" href="/services/mobile-app-development/react-native-app-development">React Native</a></li>
+                      </ul>
+                  </li>
+                  <li><a class="text-xs md:text-sm xl:text-base hover:text-scalelot-secondary" href="/services/ui-ux-design">UI/UX Design</a>
+                      <ul>
+                        <li><a class="text-xs md:text-sm xl:text-base hover:text-scalelot-secondary" href="/services/ui-ux-design/mobile-app-design">Mobile Application</a></li>
+                        <li><a class="text-xs md:text-sm xl:text-base hover:text-scalelot-secondary" href="/services/ui-ux-design/website-design">Website</a></li>
+                        <li><a class="text-xs md:text-sm xl:text-base hover:text-scalelot-secondary" href="/services/ui-ux-design/web-app-design">Web Application</a></li>
+                        <!-- <li><a class="text-xs md:text-sm xl:text-base hover:text-scalelot-secondary" href="/services/ui-ux-design/sales-funnels-design">Sales Funnels</a></li> -->
+                        <li><a class="text-xs md:text-sm xl:text-base hover:text-scalelot-secondary" href="/services/ui-ux-design/game-design">Game</a></li>
+                        <li><a class="text-xs md:text-sm xl:text-base hover:text-scalelot-secondary" href="/services/ui-ux-design/website-revamp-design">Website Redesign</a></li>
+                      </ul>
+                  </li>
+                  <li><a class="text-xs md:text-sm xl:text-base hover:text-scalelot-secondary" href="/services/graphic-design">Graphic Design</a>
+                      <ul>
+                        <li><a class="text-xs md:text-sm xl:text-base hover:text-scalelot-secondary" href="/services/graphic-design/logo-design">Logo</a></li>
+                        <li><a class="text-xs md:text-sm xl:text-base hover:text-scalelot-secondary" href="/services/graphic-design/branding-design">Branding</a></li>
+                        <li><a class="text-xs md:text-sm xl:text-base hover:text-scalelot-secondary" href="/services/graphic-design/mockups-design">Mockups</a></li>
+                        <li><a class="text-xs md:text-sm xl:text-base hover:text-scalelot-secondary" href="/services/graphic-design/infographic-design">Infographic</a></li>
+                        <li><a class="text-xs md:text-sm xl:text-base hover:text-scalelot-secondary" href="/services/graphic-design/social-media-post-design">Social Media Post</a></li>
+                        <li><a class="text-xs md:text-sm xl:text-base hover:text-scalelot-secondary" href="/services/graphic-design/banner-design">Banner Card</a></li>
+                      </ul>
+                  </li>
+                  <li><a class="text-xs md:text-sm xl:text-base hover:text-scalelot-secondary" href="/services/digital-marketing">Digital Marketing</a>
+                      <ul>
+                        <li><a class="text-xs md:text-sm xl:text-base hover:text-scalelot-secondary" href="/services/digital-marketing/seo">SEO</a></li>
+                        <li><a class="text-xs md:text-sm xl:text-base hover:text-scalelot-secondary" href="/services/digital-marketing/sem-ppc">SEM-PPC</a></li>
+                        <li><a class="text-xs md:text-sm xl:text-base hover:text-scalelot-secondary" href="/services/digital-marketing/smm">Social Media</a></li>
+                      </ul>
+                  </li>
+                  <li><a class="text-xs md:text-sm xl:text-base hover:text-scalelot-secondary" href="/services/sales-funnels-design">Sales Funnel</a>
+                      <!-- <ul>
+                        <li><a class="text-xs md:text-sm xl:text-base hover:text-scalelot-secondary" href="/services/sales-funnels-design/unbounce-landing-page-development">Unbounce</a></li>
+                        <li><a class="text-xs md:text-sm xl:text-base hover:text-scalelot-secondary" href="/services/sales-funnels-design/click-funnels-development">Click Funnels</a></li>
+                        <li><a class="text-xs md:text-sm xl:text-base hover:text-scalelot-secondary" href="/services/sales-funnels-design/instapage-landing-page-development">Instapage</a></li>
+                        <li><a class="text-xs md:text-sm xl:text-base hover:text-scalelot-secondary" href="/services/sales-funnels-design/hubspot-development">Hubspot</a></li>
+                      </ul> -->
+                  </li>
+                </ul>
+              </li>
+              <li><a class="text-xs md:text-sm xl:text-base hover:text-scalelot-secondary" href="/work">Work</a>
+                <ul>
+                  <!-- <li><a class="text-xs md:text-sm xl:text-base hover:text-scalelot-secondary" href="/work/popular-brands">Popular Brands</a></li> -->
+                  <!-- <li><a class="text-xs md:text-sm xl:text-base hover:text-scalelot-secondary" href="/work/case-studies">Case Studies</a></li> -->
+                  <li><a class="text-xs md:text-sm xl:text-base hover:text-scalelot-secondary" href="/work/portfolio">Portfolio</a></li>
+                  <!-- <li><a class="text-xs md:text-sm xl:text-base hover:text-scalelot-secondary" href="/work/products">Products</a></li> -->
+                  <li><a class="text-xs md:text-sm xl:text-base hover:text-scalelot-secondary" href="/work/testimonials">Testimonials</a></li>
+                </ul>
+              </li>
+              <!-- <li><a class="text-xs md:text-sm xl:text-base hover:text-scalelot-secondary" href="/hire-dedicated-developer">Hire</a>
+                <ul>
+                  <li><a class="text-xs md:text-sm xl:text-base hover:text-scalelot-secondary" href="/hire-dedicated-developer/hire-dedicated-angular-developer">Angular Developer</a></li>
+                  <li><a class="text-xs md:text-sm xl:text-base hover:text-scalelot-secondary" href="/hire-dedicated-developer/hire-dedicated-reactjs-developer">Reactjs Developer</a></li>
+                  <li><a class="text-xs md:text-sm xl:text-base hover:text-scalelot-secondary" href="/hire-dedicated-developer/hire-dedicated-nodejs-developer">Nodejs Developer</a></li>
+                  <li><a class="text-xs md:text-sm xl:text-base hover:text-scalelot-secondary" href="/hire-dedicated-developer/hire-dedicated-python-developer">Python Developer</a></li>
+                  <li><a class="text-xs md:text-sm xl:text-base hover:text-scalelot-secondary" href="/hire-dedicated-developer/hire-dedicated-wordpress-developer">Wordpress Developer</a></li>
+                  <li><a class="text-xs md:text-sm xl:text-base hover:text-scalelot-secondary" href="/hire-dedicated-developer/hire-dedicated-iphone-apps-developer">iOS Developer</a></li>
+                  <li><a class="text-xs md:text-sm xl:text-base hover:text-scalelot-secondary" href="/hire-dedicated-developer/hire-dedicated-android-developer">Android Developer</a></li>
+                  <li><a class="text-xs md:text-sm xl:text-base hover:text-scalelot-secondary" href="/hire-dedicated-developer/hire-dedicated-flutter-developer">Flutter Developer</a></li>
+                  <li><a class="text-xs md:text-sm xl:text-base hover:text-scalelot-secondary" href="/hire-dedicated-developer/hire-dedicated-shopify-developer">Shopify Developer</a></li>
+                </ul>
+              </li> -->
+              <!-- <li><a class="text-xs md:text-sm xl:text-base hover:text-scalelot-secondary" href="/blog">Blog</a></li> -->
+              <li><a class="text-xs md:text-sm xl:text-base hover:text-scalelot-secondary" href="/offshore">Offshore & Hire</a></li>
+              <li><a class="text-xs md:text-sm xl:text-base hover:text-scalelot-secondary" href="/career">Careers</a></li>
+              <li><a class="text-xs md:text-sm xl:text-base hover:text-scalelot-secondary" href="/contact-us">Contact Us</a></li>
+            </ul>
+          </nav>
+        </header>
+
+        <section>
+          <div class="max-w-screen-2xl mx-auto flex items-center space-x-7 px-5 lg:px-9 py-12 lg:pt-16 xl:pt-24 2xl:pt-28">
+    <a href="/admin/dashboard">Dashboard</a>
+    <a href="/admin/addMeta">Meta Keywords</a>
+    <a href="/admin/addPortfolio">Portfolio</a>
+    <a href="/admin/AddTestimonial">Testimonial</a>
+  </div>
+  <div class="max-w-screen-2xl mx-auto items-center px-5 lg:px-9 py-12 lg:py-16 xl:py-24 2xl:py-28">
+    <form action="/api/v1/meta-keywords" method="POST">
+      <div class="pr-0 px-0 mx-auto">
+        <div class="flex flex-wrap">
+          <div class="w-full px-3.5 mb-5">
+            <label class="text-sm lg:text-base text-scalelot-primary dark:text-white font-medium mb-2 block">Select Country<span class="text-scalelot-secondary">*</span></label>
+            <div class="relative">
+              <select class="appearance-none dInput small rounded-lg text-gray-700" name="country">
+                <option>INDIA</option>
+                <option>CANADA</option>
+                <option>UNITED STATES</option>
+                <option>FRANCE</option>
+              </select>
+              <div class="pointer-events-none absolute inset-y-0 right-0 flex items-center px-2 text-gray-700">
+                <svg class="stroke-white h-4 w-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
+                  <path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z"/>
+                </svg>
+              </div>
+            </div>
+          </div>
+          <div class="w-full px-3.5 mb-5">
+            <label class="text-sm lg:text-base text-scalelot-primary dark:text-white font-medium mb-2 block">Select Page<span class="text-scalelot-secondary">*</span></label>
+            <div class="relative">
+              <select class="appearance-none dInput small rounded-lg text-gray-700" name="page">
+                <option>index html</option>
+                <option>About html</option>
+                <option>Services html</option>
+                <option>Work html</option>
+                <option>blog html</option>
+                <option>contact html</option>
+                <option>portfolio html</option>
+                <option>saclelot Academy html</option>
+                <option>hire html</option>
+              </select>
+              <div class="pointer-events-none absolute inset-y-0 right-0 flex items-center px-2 text-gray-700">
+                <svg class="stroke-white h-4 w-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
+                  <path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z"/>
+                </svg>
+              </div>
+            </div>
+          </div>
+          <div class="w-full px-3.5 mb-5">                   
+            <label for="message" class="text-sm lg:text-base text-scalelot-primary dark:text-white font-medium mb-2 block">Add Keywords<span class="text-scalelot-secondary">*</span></label>
+            <textarea id="message" name="keywords" placeholder="Add your Keywords" rows="10" class="dInput small rounded-lg"></textarea>
+          </div>
+          <div class="w-full px-3.5 mb-5 text-right flex items-center justify-end">
+            <div class="pl-5">
+              <button type="submit" class="btn-border bg-scalelot-primary text-white border-white group anim rounded-xl border ml-auto">
+              <span class="bleft anim group-hover:left-0"></span>
+              Save
+              <span class="bright anim group-hover:-right-full"></span>
+              </button>
+            </div>
+<!--            <div class="pl-5">-->
+<!--              <button type="submit" class="btn-border bg-scalelot-primary text-white border-white group anim rounded-xl border ml-auto">-->
+<!--              <span class="bleft anim group-hover:left-0"></span>-->
+<!--              Update-->
+<!--              <span class="bright anim group-hover:-right-full"></span>-->
+<!--              </button>-->
+<!--            </div>-->
+          </div>
+        </div>
+      </div>
+    </form>
+  </div>
+</section>

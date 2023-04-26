@@ -1,0 +1,470 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('./../fonts/icomoon.eot?2q0q9z');
+  src:  url('./../fonts/icomoon.eot?2q0q9z#iefix') format('embedded-opentype'),
+    url('./../fonts/icomoon.ttf?2q0q9z') format('truetype'),
+    url('./../fonts/icomoon.woff?2q0q9z') format('woff'),
+    url('./../fonts/icomoon.svg?2q0q9z#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-about-founder:before {
+  content: "\e989";
+}
+.icon-advertisement-banner-design:before {
+  content: "\e97b";
+}
+.icon-web-banner:before {
+  content: "\e97c";
+}
+.icon-social-media-banner-design:before {
+  content: "\e97d";
+}
+.icon-interactive-infographic:before {
+  content: "\e97e";
+}
+.icon-static-infographic:before {
+  content: "\e97f";
+}
+.icon-computer-mockup:before {
+  content: "\e980";
+}
+.icon-macbook-mockup:before {
+  content: "\e981";
+}
+.icon-mobile-mockup:before {
+  content: "\e982";
+}
+.icon-t-shirt-mockup:before {
+  content: "\e983";
+}
+.icon-ads-post-design:before {
+  content: "\e984";
+}
+.icon-festival-post-design:before {
+  content: "\e985";
+}
+.icon-hiring-post-design:before {
+  content: "\e986";
+}
+.icon-instagram-post-design:before {
+  content: "\e987";
+}
+.icon-product-post-design:before {
+  content: "\e988";
+}
+.icon-casual-game-graphic-design:before {
+  content: "\e996";
+}
+.icon-d-game-desing1:before {
+  content: "\e98a";
+}
+.icon-website-design-wireframe:before {
+  content: "\e96a";
+}
+.icon-app-store-optimization:before {
+  content: "\e969";
+}
+.icon-Group-1066:before {
+  content: "\e95d";
+}
+.icon-profile-optimization:before {
+  content: "\e920";
+}
+.icon-ads-campaign-management:before {
+  content: "\e921";
+}
+.icon-display-ads:before {
+  content: "\e922";
+}
+.icon-google-ads:before {
+  content: "\e923";
+}
+.icon-google-analytics-handleiding:before {
+  content: "\e924";
+}
+.icon-remarketing:before {
+  content: "\e925";
+}
+.icon-video-ads:before {
+  content: "\e926";
+}
+.icon-android-app-redesign:before {
+  content: "\e936";
+}
+.icon-migration:before {
+  content: "\e94a";
+}
+.icon-mysql-database-architecture:before {
+  content: "\e958";
+}
+.icon-support-and-maintenance:before {
+  content: "\e959";
+}
+.icon-testing-and-qa-services:before {
+  content: "\e95a";
+}
+.icon-upgradation:before {
+  content: "\e95b";
+}
+.icon-development:before {
+  content: "\e95c";
+}
+.icon-local-seo:before {
+  content: "\e95e";
+}
+.icon-off-page-seo:before {
+  content: "\e95f";
+}
+.icon-on-page-seo:before {
+  content: "\e960";
+}
+.icon-technical-seo:before {
+  content: "\e961";
+}
+.icon-youtube-seo:before {
+  content: "\e962";
+}
+.icon-app-prototype-design:before {
+  content: "\e963";
+}
+.icon-app-redesign:before {
+  content: "\e964";
+}
+.icon-app-user-flow-design:before {
+  content: "\e965";
+}
+.icon-app-visual-design:before {
+  content: "\e966";
+}
+.icon-app-wireframe-design:before {
+  content: "\e967";
+}
+.icon-video-game:before {
+  content: "\e968";
+}
+.icon-d-3d-game-assets-Design:before {
+  content: "\e96b";
+}
+.icon-d-game-desing:before {
+  content: "\e96c";
+}
+.icon-concept-art-design:before {
+  content: "\e96d";
+}
+.icon-brochure-design:before {
+  content: "\e96e";
+}
+.icon-color-branding:before {
+  content: "\e96f";
+}
+.icon-stationery-branding:before {
+  content: "\e970";
+}
+.icon-typographic-branding:before {
+  content: "\e971";
+}
+.icon-visiting-cards:before {
+  content: "\e972";
+}
+.icon-website-prototype:before {
+  content: "\e973";
+}
+.icon-Website-Redesign:before {
+  content: "\e974";
+}
+.icon-website-visual-design:before {
+  content: "\e975";
+}
+.icon-app-revamp:before {
+  content: "\e976";
+}
+.icon-website-revamp:before {
+  content: "\e977";
+}
+.icon-d-logo:before {
+  content: "\e978";
+}
+.icon-d-logo1:before {
+  content: "\e979";
+}
+.icon-minimal-logo:before {
+  content: "\e97a";
+}
+.icon-email:before {
+  content: "\e93f";
+}
+.icon-instagram:before {
+  content: "\e94c";
+}
+.icon-twitter:before {
+  content: "\e950";
+}
+.icon-linkedin:before {
+  content: "\e951";
+}
+.icon-dribbble:before {
+  content: "\e952";
+}
+.icon-skype1:before {
+  content: "\e953";
+}
+.icon-facebook:before {
+  content: "\e954";
+}
+.icon-behance:before {
+  content: "\e955";
+}
+.icon-ui-ux:before {
+  content: "\e956";
+}
+.icon-mobile-app-development:before {
+  content: "\e957";
+}
+.icon-on-demand .path1:before {
+  content: "\e929";
+  color: rgb(0, 0, 0);
+}
+.icon-on-demand .path2:before {
+  content: "\e92a";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.icon-on-demand .path3:before {
+  content: "\e92b";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.icon-on-demand .path4:before {
+  content: "\e92c";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.icon-on-demand .path5:before {
+  content: "\e92d";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-on-demand .path6:before {
+  content: "\e92e";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.icon-on-demand .path7:before {
+  content: "\e92f";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.icon-on-demand .path8:before {
+  content: "\e930";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.icon-on-demand .path9:before {
+  content: "\e931";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.icon-on-demand .path10:before {
+  content: "\e932";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.icon-on-demand .path11:before {
+  content: "\e933";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.icon-on-demand .path12:before {
+  content: "\e934";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.icon-game-gesign:before {
+  content: "\e900";
+}
+.icon-html-css:before {
+  content: "\e901";
+}
+.icon-app-design:before {
+  content: "\e902";
+}
+.icon-web-app-design:before {
+  content: "\e903";
+}
+.icon-website-design:before {
+  content: "\e904";
+}
+.icon-website-redesign:before {
+  content: "\e905";
+}
+.icon-android-app:before {
+  content: "\e906";
+}
+.icon-flutter-app:before {
+  content: "\e907";
+}
+.icon-hybrid-app:before {
+  content: "\e908";
+}
+.icon-ios-app:before {
+  content: "\e909";
+}
+.icon-react-native-app:before {
+  content: "\e90a";
+}
+.icon-banner-design:before {
+  content: "\e90b";
+}
+.icon-branding-besign:before {
+  content: "\e90c";
+}
+.icon-infographic-design:before {
+  content: "\e90d";
+}
+.icon-logo-desing:before {
+  content: "\e90e";
+}
+.icon-mockups-design:before {
+  content: "\e90f";
+}
+.icon-social-media-post:before {
+  content: "\e910";
+}
+.icon-api:before {
+  content: "\e911";
+}
+.icon-cms:before {
+  content: "\e912";
+}
+.icon-ecommerce:before {
+  content: "\e913";
+}
+.icon-software-development:before {
+  content: "\e914";
+}
+.icon-web-app-development:before {
+  content: "\e915";
+}
+.icon-web-development:before {
+  content: "\e916";
+}
+.icon-interview:before {
+  content: "\e917";
+}
+.icon-selection:before {
+  content: "\e918";
+}
+.icon-requirement:before {
+  content: "\e919";
+}
+.icon-sign-the-contract:before {
+  content: "\e91a";
+}
+.icon-start-project:before {
+  content: "\e91b";
+}
+.icon-sem:before {
+  content: "\e91c";
+}
+.icon-seo:before {
+  content: "\e91d";
+}
+.icon-smm:before {
+  content: "\e91e";
+}
+.icon-call:before {
+  content: "\e91f";
+}
+.icon-dark:before {
+  content: "\e927";
+}
+.icon-light:before {
+  content: "\e928";
+}
+.icon-sales-funnel:before {
+  content: "\e935";
+}
+.icon-digital-marketing:before {
+  content: "\e937";
+}
+.icon-ar-vr:before {
+  content: "\e938";
+}
+.icon-education:before {
+  content: "\e939";
+}
+.icon-financial:before {
+  content: "\e93a";
+}
+.icon-food:before {
+  content: "\e93b";
+}
+.icon-game:before {
+  content: "\e93c";
+}
+.icon-healthcare:before {
+  content: "\e93d";
+}
+.icon-logistics:before {
+  content: "\e93e";
+}
+.icon-real-estate:before {
+  content: "\e940";
+}
+.icon-retail-ecommerce:before {
+  content: "\e941";
+}
+.icon-social-networking:before {
+  content: "\e942";
+}
+.icon-travel:before {
+  content: "\e943";
+}
+.icon-customer-support:before {
+  content: "\e944";
+}
+.icon-Innovation:before {
+  content: "\e945";
+}
+.icon-product:before {
+  content: "\e946";
+}
+.icon-team:before {
+  content: "\e947";
+}
+.icon-transperency:before {
+  content: "\e948";
+}
+.icon-trust:before {
+  content: "\e949";
+}
+.icon-developer:before {
+  content: "\e94b";
+}
+.icon-founder:before {
+  content: "\e94d";
+}
+.icon-management:before {
+  content: "\e94e";
+}
+.icon-quality-assurance:before {
+  content: "\e94f";
+}

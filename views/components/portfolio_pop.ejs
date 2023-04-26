@@ -1,0 +1,68 @@
+<div id="pop1" class="popup fixed inset-0 left-full w-screen h-screen flex items-center justify-center bg-white dark:bg-scalelot-darkPlus lg:bg-opacity-80 backdrop-blur-sm pt-5 p-3 lg:py-12 anim z-50">
+  <span onclick="removeActiveD('#pop1', 'show')" class="cursor-pointer block md:hidden absolute right-2 top-0 lg:right-5 lg:top-5 text-2xl lg:text-3xl 2xl:text-4xl hover:text-scalelot-secondary">&#x2715;</span>
+  <div class="max-w-6xl w-full max-h-[90vh] overflow-y-auto bg-slate-50 text-black dark:bg-scalelot-primary dark:text-white p-3 md:p-5 rounded-lg relative shadow">
+    <span onclick="removeActiveD('#pop1', 'show')" class="cursor-pointer md:block hidden absolute right-0 top-0 md:right-2 lg:right-5 lg:top-5 text-2xl lg:text-3xl 2xl:text-4xl hover:text-scalelot-secondary">&#x2715;</span>
+    <div class="flex flex-wrap -mx-3">
+      <div class="w-full md:w-1/2 px-3 pb-5 md:pb-0">
+        <img id="popupImage" src="/assets/images/ourworkimg1.webp" alt="Portfolio image">
+      </div>
+      <div class="w-full md:w-1/2 px-3 space-y-2">
+        <div class="md:flex items-end justify-between">
+          <div class="">
+            <p id="portfolioCategory">Health &amp; Fitness</p>
+            <h3 class="font-pop" id="portfolioTitle">Contrary To Popular Belief</h3>
+          </div>
+          <div class="text-xl whitespace-nowrap md:text-right">
+            <span id="ratingDynamic"></span> <span class="text-2xl text-yellow-400">&#9733;</span>
+          </div>
+        </div>
+        <ul class="w-full flex flex-wrap py-1 md:py-5">
+          <h5 class="w-full text-sm lg:text-lg uppercase">Technologies</h5>
+          <li class="w-1/2 py-1 md:py-2" id="webFrameworksParent">
+            <h6 class="text-sm md:text-base">Frameworks</h6>
+            <p class="text-xs lg:text-sm opacity-75 capitalize" id="webFrameworks">Express</p>
+          </li>
+          <li class="w-1/2 py-1 md:py-2" id="programmingLanguagesParent">
+            <h6 class="text-sm md:text-base">Languages</h6>
+            <p class="text-xs lg:text-sm opacity-75 capitalize" id="programmingLanguages">Node js</p>
+          </li>
+          <li class="w-1/2 py-1 md:py-2" id="miscellaneousParent">
+            <h6 class="text-sm md:text-base">Miscellaneous</h6>
+            <p class="text-xs lg:text-sm opacity-75 capitalize" id="miscellaneous">Swiper Slider</p>
+          </li>
+          <li class="w-1/2 py-1 md:py-2" id="librariesParent">
+            <h6 class="text-sm md:text-base">Javascript Libraries</h6>
+            <p class="text-xs lg:text-sm opacity-75 capitalize" id="libraries">jQuery 3.5.1</p>
+          </li>
+          <li class="w-1/2 py-1 md:py-2" id="uiFrameworksParent">
+            <h6 class="text-sm md:text-base">UI Frameworks</h6>
+            <p class="text-xs lg:text-sm opacity-75 capitalize" id="uiFrameworks">Tailwind CSS 3</p>
+          </li>
+          <li class="w-1/2 py-1 md:py-2" id="designingToolsParent">
+            <h6 class="text-sm md:text-base">Designing Tools</h6>
+            <p class="text-xs lg:text-sm opacity-75" id="designingTools">Tailwind CSS 3</p>
+          </li>
+          <li class="w-1/2 py-1 md:py-2" id="designingLanguageParent">
+            <h6 class="text-sm md:text-base">Designing Language</h6>
+            <p class="text-xs lg:text-sm opacity-75 capitalize" id="designingLanguage">Tailwind CSS 3</p>
+          </li>
+        </ul>
+        <div class="w-full" id="pageLinkParent">
+          <a id="pageLink" href="#" target="_blank" class="btn-border small text-current border-current group anim rounded-full border dark:border-white dark:text-white">
+            <span class="bleft anim group-hover:left-0"></span>
+            Live Preview
+            <span class="bright anim group-hover:-right-full"></span>
+          </a>
+        </div>
+      </div>
+      <div class="pl-3 space-y-2 py-1 md:py-5 border-l border-scalelot-primary hidden showhidden" id="descriptionMobileParent">
+        <h5 class="w-full text-sm lg:text-lg uppercase">Description</h5>
+        <p class="text-xs lg:text-sm" id="descriptionMobile"></p>
+      </div>
+      <div class="w-full px-3 space-y-2 pt-5 block showhidden" id="descriptionParent">
+        <h5 class="w-full text-sm lg:text-lg uppercase">Description</h5>
+        <p class="w-full text-xs lg:text-sm" id="description"></p>
+      </div>
+    </div>
+  </div>
+</div>

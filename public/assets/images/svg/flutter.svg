@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="68.493" height="84.774" viewBox="0 0 68.493 84.774">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: rgba(66,165,245,0.8);
+      }
+
+      .cls-2 {
+        fill: #0d47a1;
+      }
+
+      .cls-3 {
+        fill: #42a5f5;
+      }
+
+      .cls-4 {
+        fill: url(#linear-gradient);
+      }
+
+      .cls-5 {
+        fill: url(#linear-gradient-2);
+      }
+    </style>
+    <linearGradient id="linear-gradient" x2="0" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0.2" stop-opacity="0.149"/>
+      <stop offset="0.85" stop-color="#616161" stop-opacity="0.012"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0.2" stop-opacity="0.549"/>
+      <stop offset="0.85" stop-color="#616161" stop-opacity="0.012"/>
+    </linearGradient>
+  </defs>
+  <g id="flutter" transform="translate(-9.8 -10.4)">
+    <path id="Path_3789" data-name="Path 3789" class="cls-1" d="M22.853,65.84,9.8,52.787,52.187,10.4H78.293" transform="translate(0 0)"/>
+    <path id="Path_3790" data-name="Path 3790" class="cls-1" d="M115.384,94H89.278L79.5,103.778l13.053,13.053" transform="translate(-37.091 -44.488)"/>
+    <path id="Path_3791" data-name="Path 3791" class="cls-2" d="M79.5,155.853l9.778,9.778h26.106L92.553,142.8" transform="translate(-37.091 -70.457)"/>
+    <g id="Group_657" data-name="Group 657" transform="translate(29.385 72.351) rotate(-45)">
+      <rect id="Rectangle_446" data-name="Rectangle 446" class="cls-3" width="18.433" height="18.433"/>
+      <rect id="Rectangle_447" data-name="Rectangle 447" class="cls-4" width="18.433" height="2.573" transform="translate(0 18.433)"/>
+    </g>
+    <path id="Path_3792" data-name="Path 3792" class="cls-5" d="M79.5,155.853l19.369-6.69L92.553,142.8" transform="translate(-37.091 -70.457)"/>
+  </g>
+</svg>

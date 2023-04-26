@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="80.813" height="71.78" viewBox="0 0 80.813 71.78">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: url(#linear-gradient);
+      }
+
+      .cls-2 {
+        fill: url(#linear-gradient-2);
+      }
+    </style>
+    <linearGradient id="linear-gradient" x1="0.13" y1="0.12" x2="0.796" y2="0.782" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#387eb8"/>
+      <stop offset="1" stop-color="#366994"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="0.191" y1="0.206" x2="0.907" y2="0.884" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#ffe052"/>
+      <stop offset="1" stop-color="#ffc331"/>
+    </linearGradient>
+  </defs>
+  <g id="Python_" data-name="Python " transform="translate(-0.145 -0.072)">
+    <path id="Path_3810" data-name="Path 3810" class="cls-1" d="M40.26.072c-20.515,0-19.234,8.9-19.234,8.9l.023,9.217H40.626v2.767H13.272S.145,19.464.145,40.165,11.6,60.131,11.6,60.131h6.838V50.525s-.369-11.458,11.275-11.458H49.134s10.909.176,10.909-10.543V10.8S61.7.072,40.26.072Zm-10.8,6.2a3.522,3.522,0,1,1-3.522,3.522A3.519,3.519,0,0,1,29.465,6.27Z" transform="translate(0 0)"/>
+    <path id="Path_3811" data-name="Path 3811" class="cls-2" d="M85.958,124.382c20.515,0,19.234-8.9,19.234-8.9l-.023-9.217H85.592V103.5h27.353s13.128,1.489,13.128-19.212-11.458-19.966-11.458-19.966h-6.838v9.606s.369,11.458-11.275,11.458H77.084s-10.909-.176-10.909,10.543v17.725s-1.656,10.726,19.783,10.726Zm10.795-6.2a3.522,3.522,0,1,1,3.522-3.522,3.519,3.519,0,0,1-3.522,3.522Z" transform="translate(-45.115 -52.531)"/>
+  </g>
+</svg>

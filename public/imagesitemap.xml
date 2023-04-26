@@ -1,0 +1,1431 @@
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+	<!-- Home -->
+	<url>
+		<loc>https://scalelot.com/</loc>
+		<image:image>
+			<image:loc>https://scalelot.com/assets/images/home/light/hero.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://scalelot.com/assets/images/home/dark/hero.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://scalelot.com/assets/images/home/light/hire.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://scalelot.com/assets/images/home/dark/hire.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://scalelot.com/assets/images/home/light/talk.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://scalelot.com/assets/images/home/dark/talk.svg</image:loc>
+		</image:image>
+	</url>
+	
+	<!-- About Us -->
+	<url>
+		<loc>https://scalelot.com/about-us</loc>
+		<image:image>
+			<image:loc>https://scalelot.com/assets/images/about/light/vision.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://scalelot.com/assets/images/about/dark/vision.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://scalelot.com/assets/images/about/light/mission.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://scalelot.com/assets/images/about/dark/mission.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://scalelot.com/assets/images/about/light/values.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://scalelot.com/assets/images/about/dark/values.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://scalelot.com/assets/images/flag/indian-flag.png</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://scalelot.com/assets/images/flag/canada-flag.png</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://scalelot.com/assets/images/flag/usa-flag.png</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://scalelot.com/assets/images/duns.webp</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://scalelot.com/assets/images/sgcci.webp</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://scalelot.com/assets/images/clutch.webp</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://scalelot.com/assets/images/expertise.webp</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://scalelot.com/assets/images/magento-certification.webp</image:loc>			
+		</image:image>
+		<image:image>
+			<image:loc>https://scalelot.com/assets/images/aws.webp</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://scalelot.com/assets/images/certified.webp</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://scalelot.com/assets/images/goodfirm.webp</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://scalelot.com/assets/images/microsoft.webp</image:loc>
+		</image:image>
+		<!-- Teams -->
+		<image:image>
+			<image:loc>https://scalelot.com/assets/images/teams/uday-kyada.webp</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://scalelot.com/assets/images/teams/milan-mangukiya.webp</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://scalelot.com/assets/images/teams/sagar-miyani.webp</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://scalelot.com/assets/images/teams/aarti-rajput.webp</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://scalelot.com/assets/images/teams/tanvi-deliwala.webp</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://scalelot.com/assets/images/teams/sahil-nayani.webp</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://scalelot.com/assets/images/teams/prashant-pawar.webp</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://scalelot.com/assets/images/teams/vimal-ahir.webp</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://scalelot.com/assets/images/teams/ajay-dabhi.webp</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://scalelot.com/assets/images/teams/brij-patel.webp</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://scalelot.com/assets/images/teams/chirag-hirapara.webp</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://scalelot.com/assets/images/teams/rohit-rathore.webp</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://scalelot.com/assets/images/teams/jasmin-sojitra.webp</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://scalelot.com/assets/images/teams/aryan-malaviya.webp</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://scalelot.com/assets/images/teams/rutvik-anghan.webp</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://scalelot.com/assets/images/teams/vikesh-vaghela.webp</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://scalelot.com/assets/images/teams/kartik-jetani.webp</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://scalelot.com/assets/images/teams/gopal-sabhadiya.webp</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://scalelot.com/assets/images/teams/kinjal-boghani.webp</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://scalelot.com/assets/images/teams/harshil-gopani.webp</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://scalelot.com/assets/images/teams/dipti-mandani.webp</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://scalelot.com/assets/images/teams/parth-kachhadiya.webp</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://scalelot.com/assets/images/teams/amiraj-hirpara.webp</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://scalelot.com/assets/images/teams/mayur-jagtap.webp</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://scalelot.com/assets/images/teams/rani-patidar.webp</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://scalelot.com/assets/images/teams/mavani-sweta.webp</image:loc>
+		</image:image>
+	</url>
+	
+	<!-- Services -->
+	<url>
+		<loc>https://scalelot.com/services</loc>
+		<image:image>
+			<image:loc>https://scalelot.com/assets/images/services/light/website-development-services.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://scalelot.com/assets/images/services/dark/mobile-app-development-services.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://scalelot.com/assets/images/svg/javascript.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://scalelot.com/assets/images/svg/angular.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://scalelot.com/assets/images/svg/react.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://scalelot.com/assets/images/svg/nodejs.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://scalelot.com/assets/images/svg/python.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://scalelot.com/assets/images/svg/php.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://scalelot.com/assets/images/svg/laravel.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://scalelot.com/assets/images/svg/html5.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://scalelot.com/assets/images/svg/wordpress.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://scalelot.com/assets/images/svg/magento.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://scalelot.com/assets/images/svg/woocommerce-logo.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://scalelot.com/assets/images/svg/shopify.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://scalelot.com/assets/images/svg/webflow.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://scalelot.com/assets/images/svg/mongodb.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://scalelot.com/assets/images/svg/mysql.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://scalelot.com/assets/images/svg/unbounce.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://scalelot.com/assets/images/svg/click-funnels.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://scalelot.com/assets/images/svg/instapage.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://scalelot.com/assets/images/svg/hubspot.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://scalelot.com/assets/images/svg/flutter.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://scalelot.com/assets/images/svg/android.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://scalelot.com/assets/images/svg/ios-fill.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://scalelot.com/assets/images/svg/java.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://scalelot.com/assets/images/svg/kotlin.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://scalelot.com/assets/images/svg/swift.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://scalelot.com/assets/images/svg/apple-objectivec.svg</image:loc>
+		</image:image>
+	</url>
+	<!-- Web Development -->
+	<url>
+		<loc>https://scalelot.com/services/web-development</loc>
+		<image:image>
+			<image:loc>https://scalelot.com/assets/images/services/web-development/light/web-development.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://scalelot.com/assets/images/services/web-development/dark/web-development.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://scalelot.com/services/web-development/angular-development</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://scalelot.com/services/web-development/reactjs-development</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://scalelot.com/services/web-development/nodejs-development</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://scalelot.com/services/web-development/python-development</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://scalelot.com/services/web-development/html5-development</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://scalelot.com/services/web-development/wordpress-development</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://scalelot.com/services/web-development/magento-development</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://scalelot.com/services/web-development/woocommerce-development</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://scalelot.com/services/web-development/shopify-development</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://scalelot.com/services/web-development/cms-website-development</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://scalelot.com/services/web-development/mongodb-database-design</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://scalelot.com/services/web-development/mysql-database-design</image:loc>
+		</image:image>
+	</url>
+	
+	<!-- Angular Development -->
+	<url>
+		<loc>https://scalelot.com/services/web-development/angular-development</loc>
+		<image:image>
+			<image:loc>https://scalelot.com/assets/images/web-services/angular-development/light/angular-development-company.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://scalelot.com/assets/images/web-services/angular-development/dark/angular-development-company.svg</image:loc>
+		</image:image>
+		<!-- Why Choose Scalelot -->
+		<image:image>
+			<image:loc>https://scalelot.com/assets/images/web-services/angular-development/light/why-choose-scalelot.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://scalelot.com/assets/images/web-services/angular-development/dark/why-choose-scalelot.svg</image:loc>
+		</image:image>
+		<!-- Experience -->
+		<image:image>
+			<image:loc>https://scalelot.com/assets/images/experiance-years.webp</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://scalelot.com/assets/images/developers-team.webp</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://scalelot.com/assets/images/returing-client.webp</image:loc>
+		</image:image>	
+	</url>
+	
+	<!-- Reactjs Development -->
+	<url>
+		<loc>https://scalelot.com/services/web-development/reactjs-development</loc>
+		<image:image>
+			<image:loc>https://scalelot.com/assets/images/web-services/reactjs-development/light/reactjs-development-company.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://scalelot.com/assets/images/web-services/reactjs-development/dark/reactjs-development-company.svg</image:loc>
+		</image:image>
+		<!-- Why Choose Scalelot -->
+		<image:image>
+			<image:loc>https://scalelot.com/assets/images/web-services/angular-development/light/why-choose-scalelot.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://scalelot.com/assets/images/web-services/angular-development/dark/why-choose-scalelot.svg</image:loc>
+		</image:image>
+		<!-- Experience -->
+		<image:image>
+			<image:loc>https://scalelot.com/assets/images/experiance-years.webp</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://scalelot.com/assets/images/developers-team.webp</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://scalelot.com/assets/images/returing-client.webp</image:loc>
+		</image:image>	
+	</url>
+	
+	<!-- Nodejs Development -->
+	<url>
+		<loc>https://scalelot.com/services/web-development/nodejs-development</loc>
+		<image:image>
+			<image:loc>https://scalelot.com/assets/images/web-services/nodejs-development/light/nodejs-development-company.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://scalelot.com/assets/images/web-services/nodejs-development/dark/nodejs-development-company.svg</image:loc>
+		</image:image>
+		<!-- Why Choose Scalelot -->
+		<image:image>
+			<image:loc>https://scalelot.com/assets/images/web-services/angular-development/light/why-choose-scalelot.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://scalelot.com/assets/images/web-services/angular-development/dark/why-choose-scalelot.svg</image:loc>
+		</image:image>
+		<!-- Experience -->
+		<image:image>
+			<image:loc>https://scalelot.com/assets/images/experiance-years.webp</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://scalelot.com/assets/images/developers-team.webp</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://scalelot.com/assets/images/returing-client.webp</image:loc>
+		</image:image>	
+	</url>
+	
+	<!-- Python Development -->
+	<url>
+		<loc>https://scalelot.com/services/web-development/python-development</loc>
+		<image:image>
+			<image:loc>https://scalelot.com/assets/images/web-services/paython-development/light/python-development-company.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://scalelot.com/assets/images/web-services/paython-development/dark/python-development-company.svg</image:loc>
+		</image:image>
+		<!-- Why Choose Scalelot -->
+		<image:image>
+			<image:loc>https://scalelot.com/assets/images/web-services/angular-development/light/why-choose-scalelot.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://scalelot.com/assets/images/web-services/angular-development/dark/why-choose-scalelot.svg</image:loc>
+		</image:image>
+		<!-- Experience -->
+		<image:image>
+			<image:loc>https://scalelot.com/assets/images/experiance-years.webp</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://scalelot.com/assets/images/developers-team.webp</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://scalelot.com/assets/images/returing-client.webp</image:loc>
+		</image:image>
+	</url>
+	
+	<!-- Html5 Development -->
+	<url>
+		<loc>https://scalelot.com/services/web-development/html5-development</loc>
+		<image:image>
+			<image:loc>https://scalelot.com/assets/images/web-services/html5-development/light/html5-development-company.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://scalelot.com/assets/images/web-services/html5-development/dark/html5-development-company.svg</image:loc>
+		</image:image>
+		<!-- Why Choose Scalelot -->
+		<image:image>
+			<image:loc>https://scalelot.com/assets/images/web-services/angular-development/light/why-choose-scalelot.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://scalelot.com/assets/images/web-services/angular-development/dark/why-choose-scalelot.svg</image:loc>
+		</image:image>
+		<!-- Experience -->
+		<image:image>
+			<image:loc>https://scalelot.com/assets/images/experiance-years.webp</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://scalelot.com/assets/images/developers-team.webp</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://scalelot.com/assets/images/returing-client.webp</image:loc>
+		</image:image>
+	</url>
+	
+	<!-- WordPress Development -->
+	<url>
+		<loc>https://scalelot.com/services/web-development/wordpress-development</loc>
+		<image:image>
+			<image:loc>https://scalelot.com/assets/images/web-services/wordpress-development/light/wordpress-development-company.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://scalelot.com/assets/images/web-services/wordpress-development/dark/wordpress-development-company.svg</image:loc>
+		</image:image>
+		<!-- Why Choose Scalelot -->
+		<image:image>
+			<image:loc>https://scalelot.com/assets/images/web-services/angular-development/light/why-choose-scalelot.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://scalelot.com/assets/images/web-services/angular-development/dark/why-choose-scalelot.svg</image:loc>
+		</image:image>
+		<!-- Experience -->
+		<image:image>
+			<image:loc>https://scalelot.com/assets/images/experiance-years.webp</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://scalelot.com/assets/images/developers-team.webp</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://scalelot.com/assets/images/returing-client.webp</image:loc>
+		</image:image>
+	</url>
+	
+	<!-- Magento Development -->
+	<url>
+		<loc>https://scalelot.com/services/web-development/magento-development</loc>
+		<image:image>
+			<image:loc>https://scalelot.com/assets/images/web-services/magento-development/light/magento-development.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://scalelot.com/assets/images/web-services/magento-development/dark/magento-development.svg</image:loc>
+		</image:image>
+		<!-- Why Choose Scalelot -->
+		<image:image>
+			<image:loc>https://scalelot.com/assets/images/web-services/angular-development/light/why-choose-scalelot.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://scalelot.com/assets/images/web-services/angular-development/dark/why-choose-scalelot.svg</image:loc>
+		</image:image>
+		<!-- Experience -->
+		<image:image>
+			<image:loc>https://scalelot.com/assets/images/experiance-years.webp</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://scalelot.com/assets/images/developers-team.webp</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://scalelot.com/assets/images/returing-client.webp</image:loc>
+		</image:image>
+	</url>
+	
+	<!-- WooCommerce Development -->
+	<url>
+		<loc>https://scalelot.com/services/web-development/woocommerce-development</loc>
+		<image:image>
+			<image:loc>https://scalelot.com/assets/images/web-services/woo-commerce-developmentent/light/woocommerce-development.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://scalelot.com/assets/images/web-services/woo-commerce-developmentent/dark/woocommerce-development.svg</image:loc>
+		</image:image>
+		<!-- Why Choose Scalelot -->
+		<image:image>
+			<image:loc>https://scalelot.com/assets/images/web-services/angular-development/light/why-choose-scalelot.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://scalelot.com/assets/images/web-services/angular-development/dark/why-choose-scalelot.svg</image:loc>
+		</image:image>
+		<!-- Experience -->
+		<image:image>
+			<image:loc>https://scalelot.com/assets/images/experiance-years.webp</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://scalelot.com/assets/images/developers-team.webp</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://scalelot.com/assets/images/returing-client.webp</image:loc>
+		</image:image>
+	</url>
+	
+	<!-- Shopify Development -->
+	<url>
+		<loc>https://scalelot.com/services/web-development/shopify-development</loc>
+		<image:image>
+			<image:loc>https://scalelot.com/assets/images/web-services/shopify-development/light/shopify-development.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://scalelot.com/assets/images/web-services/shopify-development/dark/shopify-development.svg</image:loc>
+		</image:image>
+		<!-- Why Choose Scalelot -->
+		<image:image>
+			<image:loc>https://scalelot.com/assets/images/web-services/angular-development/light/why-choose-scalelot.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://scalelot.com/assets/images/web-services/angular-development/dark/why-choose-scalelot.svg</image:loc>
+		</image:image>
+		<!-- Experience -->
+		<image:image>
+			<image:loc>https://scalelot.com/assets/images/experiance-years.webp</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://scalelot.com/assets/images/developers-team.webp</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://scalelot.com/assets/images/returing-client.webp</image:loc>
+		</image:image>
+	</url>
+	
+	<!-- CMS Development -->
+	<url>
+		<loc>https://scalelot.com/services/web-development/cms-website-development</loc>
+		<image:image>
+			<image:loc>https://scalelot.com/assets/images/web-services/cms-development/light/content-management-system.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://scalelot.com/assets/images/web-services/cms-development/dark/CMS-development.svg</image:loc>
+		</image:image>
+		<!-- Why Choose Scalelot -->
+		<image:image>
+			<image:loc>https://scalelot.com/assets/images/web-services/angular-development/light/why-choose-scalelot.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://scalelot.com/assets/images/web-services/angular-development/dark/why-choose-scalelot.svg</image:loc>
+		</image:image>
+		<!-- Experience -->
+		<image:image>
+			<image:loc>https://scalelot.com/assets/images/experiance-years.webp</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://scalelot.com/assets/images/developers-team.webp</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://scalelot.com/assets/images/returing-client.webp</image:loc>
+		</image:image>
+	</url>
+	
+	<!-- Mongodb Data Model Design -->
+	<url>
+		<loc>https://scalelot.com/services/web-development/mongodb-database-design</loc>
+		<image:image>
+			<image:loc>https://scalelot.com/assets/images/web-services/mongodb-data/dark/mongodb-data.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://scalelot.com/assets/images/web-services/mongodb-data/dark/mongodb-data.svg</image:loc>
+		</image:image>
+		<!-- Why Choose Scalelot -->
+		<image:image>
+			<image:loc>https://scalelot.com/assets/images/web-services/angular-development/light/why-choose-scalelot.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://scalelot.com/assets/images/web-services/angular-development/dark/why-choose-scalelot.svg</image:loc>
+		</image:image>
+		<!-- Experience -->
+		<image:image>
+			<image:loc>https://scalelot.com/assets/images/experiance-years.webp</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://scalelot.com/assets/images/developers-team.webp</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://scalelot.com/assets/images/returing-client.webp</image:loc>
+		</image:image>
+	</url>
+	
+	<!-- Mysql Data Model Design -->
+	<url>
+		<loc>https://scalelot.com/services/web-development/mysql-database-design</loc>
+		<image:image>
+			<image:loc>https://scalelot.com/assets/images/web-services/mysql-database-design/light/Mysql-database-design.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://scalelot.com/assets/images/web-services/mysql-database-design/dark/Mysql-database-design.svg</image:loc>
+		</image:image>
+		<!-- Why Choose Scalelot -->
+		<image:image>
+			<image:loc>https://scalelot.com/assets/images/web-services/angular-development/light/why-choose-scalelot.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://scalelot.com/assets/images/web-services/angular-development/dark/why-choose-scalelot.svg</image:loc>
+		</image:image>
+		<!-- Experience -->
+		<image:image>
+			<image:loc>https://scalelot.com/assets/images/experiance-years.webp</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://scalelot.com/assets/images/developers-team.webp</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://scalelot.com/assets/images/returing-client.webp</image:loc>
+		</image:image>
+	</url>
+	
+	<!-- Mobile App Development -->
+	<url>
+		<loc>https://scalelot.com/services/mobile-app-development</loc>
+		<image:image>
+			<image:loc>https://scalelot.com/assets/images/services/mobile-application/light/mobile-app.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://scalelot.com/assets/images/services/mobile-application/dark/mobile-app.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://scalelot.com/assets/images/svg/android.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://scalelot.com/assets/images/svg/ios-fill.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://scalelot.com/assets/images/svg/flutter.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://scalelot.com/assets/images/svg/react.svg</image:loc>
+		</image:image>
+	</url>
+	
+	<!-- iOS Native Development -->
+	<url>
+		<loc>https://scalelot.com/services/mobile-app-development/ios-app-development</loc>
+		<image:image>
+			<image:loc>https://scalelot.com/assets/images/mobile-app-services/Ios-native-development/light/apples-developer.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://scalelot.com/assets/images/mobile-app-services/Ios-native-development/dark/ios-development.svg</image:loc>
+		</image:image>
+		<!-- Why Choose Scalelot -->
+		<image:image>
+			<image:loc>https://scalelot.com/assets/images/web-services/angular-development/light/why-choose-scalelot.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://scalelot.com/assets/images/web-services/angular-development/dark/why-choose-scalelot.svg</image:loc>
+		</image:image>
+		<!-- Experience -->
+		<image:image>
+			<image:loc>https://scalelot.com/assets/images/experiance-years.webp</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://scalelot.com/assets/images/developers-team.webp</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://scalelot.com/assets/images/returing-client.webp</image:loc>
+		</image:image>
+	</url>
+	
+	<!-- Android Native Development -->
+	<url>
+		<loc>https://scalelot.com/services/mobile-app-development/android-app-development</loc>
+		<image:image>
+			<image:loc>https://scalelot.com/assets/images/mobile-app-services/android-native-development/light/android-app-development.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://scalelot.com/assets/images/mobile-app-services/android-native-development/dark/android-development.svg
+			</image:loc>
+		</image:image>
+		<!-- Why Choose Scalelot -->
+		<image:image>
+			<image:loc>https://scalelot.com/assets/images/web-services/angular-development/light/why-choose-scalelot.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://scalelot.com/assets/images/web-services/angular-development/dark/why-choose-scalelot.svg</image:loc>
+		</image:image>
+		<!-- Experience -->
+		<image:image>
+			<image:loc>https://scalelot.com/assets/images/experiance-years.webp</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://scalelot.com/assets/images/developers-team.webp</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://scalelot.com/assets/images/returing-client.webp</image:loc>
+		</image:image>
+	</url>
+	
+	<!-- Hybrid App Development -->
+	<url>
+		<loc>https://scalelot.com/services/mobile-app-development/hybrid-app-development</loc>
+		<image:image>
+			<image:loc>https://scalelot.com/assets/images/mobile-app-services/hybrid-app-development/light/cross-platform-app-development.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://scalelot.com/assets/images/mobile-app-services/hybrid-app-development/dark/hybrid-app-development.svg</image:loc>
+		</image:image>
+		<!-- Why Choose Scalelot -->
+		<image:image>
+			<image:loc>https://scalelot.com/assets/images/web-services/angular-development/light/why-choose-scalelot.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://scalelot.com/assets/images/web-services/angular-development/dark/why-choose-scalelot.svg</image:loc>
+		</image:image>
+		<!-- Experience -->
+		<image:image>
+			<image:loc>https://scalelot.com/assets/images/experiance-years.webp</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://scalelot.com/assets/images/developers-team.webp</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://scalelot.com/assets/images/returing-client.webp</image:loc>
+		</image:image>
+	</url>
+	
+	<!-- Flutter App Development -->
+	<url>
+		<loc>https://scalelot.com/services/mobile-app-development/flutter-app-development</loc>
+		<image:image>
+			<image:loc>https://scalelot.com/assets/images/mobile-app-services/flutter-app-development/light/flutter-development.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://scalelot.com/assets/images/mobile-app-services/flutter-app-development/dark/flutter-app-development.svg</image:loc>
+		</image:image>
+		<!-- Why Choose Scalelot -->
+		<image:image>
+			<image:loc>https://scalelot.com/assets/images/web-services/angular-development/light/why-choose-scalelot.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://scalelot.com/assets/images/web-services/angular-development/dark/why-choose-scalelot.svg</image:loc>
+		</image:image>
+		<!-- Experience -->
+		<image:image>
+			<image:loc>https://scalelot.com/assets/images/experiance-years.webp</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://scalelot.com/assets/images/developers-team.webp</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://scalelot.com/assets/images/returing-client.webp</image:loc>
+		</image:image>
+	</url>
+	
+	<!-- React Native App Development -->
+	<url>
+		<loc>https://scalelot.com/services/mobile-app-development/react-native-app-development</loc>
+		<image:image>
+			<image:loc>https://scalelot.com/assets/images/mobile-app-services/react-native-app-development/light/react-native-app-development.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://scalelot.com/assets/images/mobile-app-services/react-native-app-development/dark/react-native-app-development-company.svg</image:loc>
+		</image:image>
+		<!-- Why Choose Scalelot -->
+		<image:image>
+			<image:loc>https://scalelot.com/assets/images/web-services/angular-development/light/why-choose-scalelot.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://scalelot.com/assets/images/web-services/angular-development/dark/why-choose-scalelot.svg</image:loc>
+		</image:image>
+		<!-- Experience -->
+		<image:image>
+			<image:loc>https://scalelot.com/assets/images/experiance-years.webp</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://scalelot.com/assets/images/developers-team.webp</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://scalelot.com/assets/images/returing-client.webp</image:loc>
+		</image:image>
+	</url>
+	
+	<!-- UI / UX Designing -->
+	<url>
+		<loc>https://scalelot.com/services/ui-ux-design</loc>
+		<image:image>
+			<image:loc>https://scalelot.com/assets/images/services/ui-ux-designing/light/ui-ux-designing.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://scalelot.com/assets/images/services/ui-ux-designing/dark/ui-ux-designing.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://scalelot.com/assets/images/svg/photoshop.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://scalelot.com/assets/images/svg/xd.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://scalelot.com/assets/images/svg/bootstrap.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://scalelot.com/assets/images/svg/sketch.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://scalelot.com/assets/images/svg/illustrator.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://scalelot.com/assets/images/svg/figma.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://scalelot.com/assets/images/svg/html5.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://scalelot.com/assets/images/svg/zeplin.svg</image:loc>
+		</image:image>
+	</url>
+	
+	<!-- Mobile Application Design -->
+	<url>
+		<loc>https://scalelot.com/services/ui-ux-design/mobile-app-design</loc>
+		<image:image>
+			<image:loc>https://scalelot.com/assets/images/uiux-design-services/mobile-application-design/light/app-designing.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://scalelot.com/assets/images/uiux-design-services/mobile-application-design/dark/mobile-app-design.svg</image:loc>
+		</image:image>
+		<!-- Why Choose Scalelot -->
+		<image:image>
+			<image:loc>https://scalelot.com/assets/images/web-services/angular-development/light/why-choose-scalelot.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://scalelot.com/assets/images/web-services/angular-development/dark/why-choose-scalelot.svg</image:loc>
+		</image:image>
+		<!-- Experience -->
+		<image:image>
+			<image:loc>https://scalelot.com/assets/images/experiance-years.webp</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://scalelot.com/assets/images/developers-team.webp</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://scalelot.com/assets/images/returing-client.webp</image:loc>
+		</image:image>
+	</url>
+	
+	<!-- Website Design -->
+	<url>
+		<loc>https://scalelot.com/services/ui-ux-design/website-design</loc>
+		<image:image>
+			<image:loc>https://scalelot.com/assets/images/uiux-design-services/website-design/light/web-design.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://scalelot.com/assets/images/uiux-design-services/website-design/dark/website-design.svg</image:loc>
+		</image:image>
+		<!-- Why Choose Scalelot -->
+		<image:image>
+			<image:loc>https://scalelot.com/assets/images/web-services/angular-development/light/why-choose-scalelot.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://scalelot.com/assets/images/web-services/angular-development/dark/why-choose-scalelot.svg</image:loc>
+		</image:image>
+		<!-- Experience -->
+		<image:image>
+			<image:loc>https://scalelot.com/assets/images/experiance-years.webp</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://scalelot.com/assets/images/developers-team.webp</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://scalelot.com/assets/images/returing-client.webp</image:loc>
+		</image:image>
+	</url>
+	
+	<!-- Website Application Design -->
+	<url>
+		<loc>https://scalelot.com/services/ui-ux-design/web-app-design</loc>
+		<image:image>
+			<image:loc>https://scalelot.com/assets/images/uiux-design-services/web-application-design/light/web-app-design.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://scalelot.com/assets/images/uiux-design-services/web-application-design/dark/web-application-design.svg</image:loc>
+		</image:image>
+		<!-- Why Choose Scalelot -->
+		<image:image>
+			<image:loc>https://scalelot.com/assets/images/web-services/angular-development/light/why-choose-scalelot.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://scalelot.com/assets/images/web-services/angular-development/dark/why-choose-scalelot.svg</image:loc>
+		</image:image>
+		<!-- Experience -->
+		<image:image>
+			<image:loc>https://scalelot.com/assets/images/experiance-years.webp</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://scalelot.com/assets/images/developers-team.webp</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://scalelot.com/assets/images/returing-client.webp</image:loc>
+		</image:image>
+	</url>
+	
+	<!-- Game Design -->
+	<url>
+		<loc>https://scalelot.com/services/ui-ux-design/game-design</loc>
+		<image:image>
+			<image:loc>https://scalelot.com/assets/images/uiux-design-services/game-design/light/game-ui-design.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://scalelot.com/assets/images/uiux-design-services/game-design/dark/game-design.svg</image:loc>
+		</image:image>
+		<!-- Why Choose Scalelot -->
+		<image:image>
+			<image:loc>https://scalelot.com/assets/images/web-services/angular-development/light/why-choose-scalelot.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://scalelot.com/assets/images/web-services/angular-development/dark/why-choose-scalelot.svg</image:loc>
+		</image:image>
+		<!-- Experience -->
+		<image:image>
+			<image:loc>https://scalelot.com/assets/images/experiance-years.webp</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://scalelot.com/assets/images/developers-team.webp</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://scalelot.com/assets/images/returing-client.webp</image:loc>
+		</image:image>
+	</url>
+	
+	<!-- Website Revamp Design -->
+	<url>
+		<loc>https://scalelot.com/services/ui-ux-design/website-revamp-design</loc>
+		<image:image>
+			<image:loc>https://scalelot.com/assets/images/uiux-design-services/website-redesign/light/website-revamp.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://scalelot.com/assets/images/uiux-design-services/website-redesign/dark/website-redesign.svg</image:loc>
+		</image:image>
+		<!-- Why Choose Scalelot -->
+		<image:image>
+			<image:loc>https://scalelot.com/assets/images/web-services/angular-development/light/why-choose-scalelot.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://scalelot.com/assets/images/web-services/angular-development/dark/why-choose-scalelot.svg</image:loc>
+		</image:image>
+		<!-- Experience -->
+		<image:image>
+			<image:loc>https://scalelot.com/assets/images/experiance-years.webp</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://scalelot.com/assets/images/developers-team.webp</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://scalelot.com/assets/images/returing-client.webp</image:loc>
+		</image:image>
+	</url>
+	
+	<!-- Graphic Designing -->
+	<url>
+		<loc>https://scalelot.com/services/graphic-design</loc>
+		<image:image>
+			<image:loc>https://scalelot.com/assets/images/svg/photoshop.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://scalelot.com/assets/images/svg/illustrator.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://scalelot.com/assets/images/svg/coreldraw.svg</image:loc>
+		</image:image>
+	</url>
+	
+	<!-- Logo Design -->
+	<url>
+		<loc>https://scalelot.com/services/graphic-design/logo-design</loc>
+		<image:image>
+			<image:loc>https://scalelot.com/assets/images/graphic-design/logo-design/light/creative-logo-design.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://scalelot.com/assets/images/graphic-design/logo-design/dark/logo-design.svg</image:loc>
+		</image:image>
+		<!-- Why Choose Scalelot -->
+		<image:image>
+			<image:loc>https://scalelot.com/assets/images/web-services/angular-development/light/why-choose-scalelot.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://scalelot.com/assets/images/web-services/angular-development/dark/why-choose-scalelot.svg</image:loc>
+		</image:image>
+		<!-- Experience -->
+		<image:image>
+			<image:loc>https://scalelot.com/assets/images/experiance-years.webp</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://scalelot.com/assets/images/developers-team.webp</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://scalelot.com/assets/images/returing-client.webp</image:loc>
+		</image:image>
+	</url>
+	
+	<!-- Branding Design -->
+	<url>
+		<loc>https://scalelot.com/services/graphic-design/branding-design</loc>
+		<image:image>
+			<image:loc>https://scalelot.com/assets/images/graphic-design/branding-design/light/branding-company.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://scalelot.com/assets/images/graphic-design/branding-design/dark/branding-design.svg</image:loc>
+		</image:image>
+		<!-- Why Choose Scalelot -->
+		<image:image>
+			<image:loc>https://scalelot.com/assets/images/web-services/angular-development/light/why-choose-scalelot.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://scalelot.com/assets/images/web-services/angular-development/dark/why-choose-scalelot.svg</image:loc>
+		</image:image>
+		<!-- Experience -->
+		<image:image>
+			<image:loc>https://scalelot.com/assets/images/experiance-years.webp</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://scalelot.com/assets/images/developers-team.webp</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://scalelot.com/assets/images/returing-client.webp</image:loc>
+		</image:image>
+	</url>
+	
+	<!-- Mockups Design -->
+	<url>
+		<loc>https://scalelot.com/services/graphic-design/mockups-design</loc>
+		<image:image>
+			<image:loc>https://scalelot.com/assets/images/graphic-design/mockups-design/light/website-mockup.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://scalelot.com/assets/images/graphic-design/mockups-design/dark/branding-mockup.svg</image:loc>
+		</image:image>
+		<!-- Why Choose Scalelot -->
+		<image:image>
+			<image:loc>https://scalelot.com/assets/images/web-services/angular-development/light/why-choose-scalelot.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://scalelot.com/assets/images/web-services/angular-development/dark/why-choose-scalelot.svg</image:loc>
+		</image:image>
+		<!-- Experience -->
+		<image:image>
+			<image:loc>https://scalelot.com/assets/images/experiance-years.webp</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://scalelot.com/assets/images/developers-team.webp</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://scalelot.com/assets/images/returing-client.webp</image:loc>
+		</image:image>
+	</url>
+	
+	<!-- Infographic Design -->
+	<url>
+		<loc>https://scalelot.com/services/graphic-design/infographic-design</loc>
+		<image:image>
+			<image:loc>https://scalelot.com/assets/images/graphic-design/infographic-design/light/infographic-making.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://scalelot.com/assets/images/graphic-design/infographic-design/dark/infographic-design.svg</image:loc>
+		</image:image>
+		<!-- Why Choose Scalelot -->
+		<image:image>
+			<image:loc>https://scalelot.com/assets/images/web-services/angular-development/light/why-choose-scalelot.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://scalelot.com/assets/images/web-services/angular-development/dark/why-choose-scalelot.svg</image:loc>
+		</image:image>
+		<!-- Experience -->
+		<image:image>
+			<image:loc>https://scalelot.com/assets/images/experiance-years.webp</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://scalelot.com/assets/images/developers-team.webp</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://scalelot.com/assets/images/returing-client.webp</image:loc>
+		</image:image>
+	</url>
+	
+	<!-- Social Media Post Design -->
+	<url>
+		<loc>https://scalelot.com/services/graphic-design/social-media-post-design</loc>
+		<image:image>
+			<image:loc>https://scalelot.com/assets/images/graphic-design/social-media-post-design/light/social-media-post-design.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://scalelot.com/assets/images/graphic-design/social-media-post-design/dark/post-designer.svg</image:loc>
+		</image:image>
+		<!-- Why Choose Scalelot -->
+		<image:image>
+			<image:loc>https://scalelot.com/assets/images/web-services/angular-development/light/why-choose-scalelot.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://scalelot.com/assets/images/web-services/angular-development/dark/why-choose-scalelot.svg</image:loc>
+		</image:image>
+		<!-- Experience -->
+		<image:image>
+			<image:loc>https://scalelot.com/assets/images/experiance-years.webp</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://scalelot.com/assets/images/developers-team.webp</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://scalelot.com/assets/images/returing-client.webp</image:loc>
+		</image:image>
+	</url>
+	
+	<!-- Banner Card Design -->
+	<url>
+		<loc>https://scalelot.com/services/graphic-design/banner-design</loc>
+		<image:image>
+			<image:loc>https://scalelot.com/assets/images/graphic-design/banner-card-design/light/welcome-banner-design.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://scalelot.com/assets/images/graphic-design/banner-card-design/dark/banner-design.svg</image:loc>
+		</image:image>
+		<!-- Why Choose Scalelot -->
+		<image:image>
+			<image:loc>https://scalelot.com/assets/images/web-services/angular-development/light/why-choose-scalelot.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://scalelot.com/assets/images/web-services/angular-development/dark/why-choose-scalelot.svg</image:loc>
+		</image:image>
+		<!-- Experience -->
+		<image:image>
+			<image:loc>https://scalelot.com/assets/images/experiance-years.webp</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://scalelot.com/assets/images/developers-team.webp</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://scalelot.com/assets/images/returing-client.webp</image:loc>
+		</image:image>
+	</url>
+	
+	<!-- Digital Marketing -->
+	<url>
+		<loc>https://scalelot.com/services/digital-marketing</loc>
+		<image:image>
+			<image:loc>https://scalelot.com/assets/images/services/digital-marketing/light/digital-marketing.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://scalelot.com/assets/images/services/digital-marketing/dark/digital-marketing.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://scalelot.com/assets/images/svg/seo.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://scalelot.com/assets/images/svg/sem-pcc.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://scalelot.com/assets/images/svg/social-media.svg</image:loc>
+		</image:image>
+	</url>
+	
+	<!-- SEO Services -->
+	<url>
+		<loc>https://scalelot.com/services/digital-marketing/seo</loc>
+		<image:image>
+			<image:loc>https://scalelot.com/assets/images/digital-marketing/seo-services/light/seo-services.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://scalelot.com/assets/images/digital-marketing/seo-services/dark/seo-marketing.svg</image:loc>
+		</image:image>
+		<!-- Why Choose Scalelot -->
+		<image:image>
+			<image:loc>https://scalelot.com/assets/images/web-services/angular-development/light/why-choose-scalelot.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://scalelot.com/assets/images/web-services/angular-development/dark/why-choose-scalelot.svg</image:loc>
+		</image:image>
+		<!-- Experience -->
+		<image:image>
+			<image:loc>https://scalelot.com/assets/images/experiance-years.webp</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://scalelot.com/assets/images/developers-team.webp</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://scalelot.com/assets/images/returing-client.webp</image:loc>
+		</image:image>
+	</url>
+	
+	<!-- SEM-PPC Services -->
+	<url>
+		<loc>https://scalelot.com/services/digital-marketing/sem-ppc</loc>
+		<image:image>
+			<image:loc>https://scalelot.com/assets/images/digital-marketing/sem-ppc-management/light/ppc-marketing.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://scalelot.com/assets/images/digital-marketing/sem-ppc-management/dark/sem-marketing.svg</image:loc>
+		</image:image>
+		<!-- Why Choose Scalelot -->
+		<image:image>
+			<image:loc>https://scalelot.com/assets/images/web-services/angular-development/light/why-choose-scalelot.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://scalelot.com/assets/images/web-services/angular-development/dark/why-choose-scalelot.svg</image:loc>
+		</image:image>
+		<!-- Experience -->
+		<image:image>
+			<image:loc>https://scalelot.com/assets/images/experiance-years.webp</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://scalelot.com/assets/images/developers-team.webp</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://scalelot.com/assets/images/returing-client.webp</image:loc>
+		</image:image>
+	</url>
+	
+	<!-- Social Media Marketing -->
+	<url>
+		<loc>https://scalelot.com/services/digital-marketing/smm</loc>
+		<image:image>
+			<image:loc>https://scalelot.com/assets/images/digital-marketing/social-media-marketing/light/social-media-marketing.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://scalelot.com/assets/images/digital-marketing/social-media-marketing/dark/social-media-marketing.svg</image:loc>
+		</image:image>
+		<!-- Why Choose Scalelot -->
+		<image:image>
+			<image:loc>https://scalelot.com/assets/images/web-services/angular-development/light/why-choose-scalelot.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://scalelot.com/assets/images/web-services/angular-development/dark/why-choose-scalelot.svg</image:loc>
+		</image:image>
+		<!-- Experience -->
+		<image:image>
+			<image:loc>https://scalelot.com/assets/images/experiance-years.webp</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://scalelot.com/assets/images/developers-team.webp</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://scalelot.com/assets/images/returing-client.webp</image:loc>
+		</image:image>
+	</url>
+	
+	<!-- Sales Funnels -->
+	<url>
+		<loc>https://scalelot.com/services/sales-funnels-design</loc>
+		<image:image>
+			<image:loc>https://scalelot.com/assets/images/services/web-development/light/web-development.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://scalelot.com/assets/images/services/web-development/dark/web-development.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://scalelot.com/assets/images/svg/hubspot.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://scalelot.com/assets/images/svg/shopify.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://scalelot.com/assets/images/svg/leadpage.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://scalelot.com/assets/images/svg/unbounce.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://scalelot.com/assets/images/svg/wordpress.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://scalelot.com/assets/images/kajabi.webp</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://scalelot.com/assets/images/builder.io.webp</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://scalelot.com/assets/images/ghl.webp</image:loc>
+		</image:image>
+	</url>
+	
+	<!-- Work -->
+	<url>
+		<loc>https://scalelot.com/work</loc>
+		<image:image>
+			<image:loc>https://scalelot.com/assets/images/how-we-work/light/how-we-work.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://scalelot.com/assets/images/how-we-work/dark/how-we-work.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://scalelot.com/assets/images/about/light/mission.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://scalelot.com/assets/images/about/dark/mission.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://scalelot.com/assets/images/about/light/vision.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://scalelot.com/assets/images/about/dark/vision.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://scalelot.com/assets/images/about/light/core-values.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://scalelot.com/assets/images/about/dark/core-values.svg</image:loc>
+		</image:image>
+	</url>
+	
+	<!-- Offshore -->
+	<url>
+		<loc>https://scalelot.com/offshore</loc>
+		<image:image>
+			<image:loc>https://scalelot.com/assets/images/offshore-team/light/offshore-team.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://scalelot.com/assets/images/offshore-team/dark/offshore-team.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://scalelot.com/assets/images/offshore-team/light/service-details.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://scalelot.com/assets/images/offshore-team/dark/service-details.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://scalelot.com/assets/images/svg/angular.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://scalelot.com/assets/images/svg/react.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://scalelot.com/assets/images/svg/nodejs.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://scalelot.com/assets/images/svg/python.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://scalelot.com/assets/images/svg/wordpress.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://scalelot.com/assets/images/svg/apple.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://scalelot.com/assets/images/svg/android.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://scalelot.com/assets/images/svg/flutter.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://scalelot.com/assets/images/svg/shopify.svg</image:loc>
+		</image:image>
+	</url>
+	
+	<!-- Career -->
+	<url>
+		<loc>https://scalelot.com/career</loc>
+		<image:image>
+			<image:loc>https://scalelot.com/assets/images/career/light/its-time-to-grow-your-career.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://scalelot.com/assets/images/career/dark/its-time-to-grow-your-career.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://scalelot.com/assets/images/svg/apple.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://scalelot.com/assets/images/svg/nodejs.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://scalelot.com/assets/images/svg/react.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://scalelot.com/assets/images/svg/angular.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://scalelot.com/assets/images/svg/flutter.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://scalelot.com/assets/images/svg/wordpress.svg</image:loc>
+		</image:image>
+	</url>
+	
+	<!-- Contact US -->
+	<url>
+		<loc>https://scalelot.com/contact-us</loc>
+		<image:image>
+			<image:loc>https://scalelot.com/assets/images/flag/indian-flag.png</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://scalelot.com/assets/images/flag/canada-flag.png</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://scalelot.com/assets/images/flag/usa-flag.png</image:loc>
+		</image:image>
+	</url>
+	
+	<!-- FAQ -->
+	<url>
+		<loc>https://scalelot.com/faq</loc>
+		<image:image>
+			<image:loc>https://scalelot.com/assets/images/faq/light/frequently-asked-question.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://scalelot.com/assets/images/faq/dark/frequently-asked-question.svg</image:loc>
+		</image:image>
+	</url>
+	
+	<!-- HTML Sitemap -->
+	<url>
+		<loc>https://scalelot.com/html-sitemap</loc>
+		<image:image>
+			<image:loc>https://scalelot.com/assets/images/sitemap/light/html-sitemap.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://scalelot.com/assets/images/sitemap/dark/html-sitemap.svg</image:loc>
+		</image:image>
+	</url>
+</urlset>

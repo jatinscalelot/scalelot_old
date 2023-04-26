@@ -1,0 +1,61 @@
+<section>
+  <div class="max-w-screen-4k mx-auto flex flex-wrap py-12 lg:py-16 xl:py-24 2xl:py-28 items-center space-y-7 md:space-y-9">
+    <h2 class="text-center w-full">Our Clients Say</h2>
+    <div class="w-full mx-auto relative">
+      <div class="w-full flex items-center justify-center space-x-7 mb-5 md:mb-0 -mt-5">
+        <div class="navArrowPrev cursor-pointer hover:text-scalelot-secondary anim">
+          <span class="block text-3xl md:text-4xl lg:text-5xl text-current">&#8592;</span>
+        </div>
+        <span class="h-8 mt-0.5 md:mt-2 border-l-2 border-current opacity-30"></span>
+        <div class="navArrowNext cursor-pointer hover:text-scalelot-secondary anim">
+          <span class="block text-3xl md:text-4xl lg:text-5xl text-current">&#8594;</span>
+        </div>
+      </div>
+      <div class="swiper clientsSay- recentWork py-8">
+        <div class="swiper-wrapper">
+          <% testimonials.forEach(function(testimonial){ %>
+            <div class="swiper-slide h-auto w-11/12 md:w-1/2 lg:w-1/3 2xl:w-1/4">
+              <div class="box flex flex-col justify-between dark:bg-scalelot-primary border-2 border-scalelot-ceil dark:border-white border-opacity-10 dark:border-opacity-10 shadow-one rounded-2xl p-7 md:p-8 h-full">
+                <div class="">
+                  <div class="qoutet pb-5">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="53.107" height="40" viewBox="0 0 53.107 40">
+                      <g data-name="Group 80" transform="translate(0 0.004)">
+                        <g data-name="Group 79" transform="translate(0 0)">
+                          <path data-name="Path 97" d="M13.26,81.038c.474-3.536,3.648-6.737,9.455-9.527l1.046-.5-4.287-7.794-.968.483C6.226,69.828,0,78.49,0,89.445a14.019,14.019,0,0,0,3.622,9.7,11.5,11.5,0,0,0,8.791,4.063A10.335,10.335,0,0,0,20.1,100.03a11.086,11.086,0,0,0-.031-15.353A12.187,12.187,0,0,0,13.26,81.038Zm5.233,17.474a8.062,8.062,0,0,1-6.08,2.5,9.225,9.225,0,0,1-7.125-3.327A11.749,11.749,0,0,1,2.23,89.445,22.524,22.524,0,0,1,6.5,75.972a34.11,34.11,0,0,1,12.054-9.823l2.148,3.9c-6.459,3.333-9.731,7.34-9.731,11.92v.981l.99.11a10.071,10.071,0,0,1,6.484,3.109,8.915,8.915,0,0,1,.052,12.338Z" transform="translate(0 -63.215)" fill="#ee3139"/>
+                        </g>
+                      </g>
+                      <g data-name="Group 82" transform="translate(29.359)">
+                        <g data-name="Group 81" transform="translate(0 0)">
+                          <path data-name="Path 98" d="M299.883,81.011c.468-3.539,3.616-6.742,9.376-9.532l1.03-.5-4.18-7.8-.977.486c-12.336,6.129-18.59,14.792-18.59,25.748a13.928,13.928,0,0,0,3.668,9.708,11.626,11.626,0,0,0,8.827,4.058,10.2,10.2,0,0,0,7.656-3.187,11.141,11.141,0,0,0-.078-15.347A12.149,12.149,0,0,0,299.883,81.011Zm5.187,17.477a7.931,7.931,0,0,1-6.033,2.5,9.348,9.348,0,0,1-7.171-3.332,11.66,11.66,0,0,1-3.094-8.238,22.452,22.452,0,0,1,4.286-13.471,34.234,34.234,0,0,1,12.106-9.821l2.089,3.9c-6.412,3.334-9.661,7.342-9.661,11.923v.979l.987.112a10,10,0,0,1,6.4,3.109,8.969,8.969,0,0,1,.087,12.344Z" transform="translate(-286.541 -63.181)" fill="#ee3139"/>
+                        </g>
+                      </g>
+                    </svg>
+                  </div>
+                  <p class="pb-5"><%= testimonial.review %></p>
+                </div>
+                <div class="user flex items-center justify-between">
+<!--                  <div class="image mr-5">-->
+<!--                    <img src="/assets/images/dynamic-images/<%# testimonial.files[0] %>" alt="" class="rounded-full w-16 h-16 object-cover">-->
+<!--                  </div>-->
+                  <div class="user-text">
+                    <h5 class=""><%= testimonial.clientName %></h5>
+                  </div>
+                    <div class="text-xl whitespace-nowrap">
+                        <%= testimonial.rating %> <span class="text-2xl text-yellow-400">&#9733;</span>
+                    </div>
+                </div>
+              </div>
+            </div>
+          <% }) %>
+        </div>
+      </div>
+    </div>
+    <div class="text-center w-full">
+      <button onclick="window.location='/work/testimonials'" type="button" class="btn-border text-current border-current group anim rounded-full border">
+        <span class="bleft anim group-hover:left-0"></span>
+        Read More
+        <span class="bright anim group-hover:-right-full"></span>
+      </button>
+    </div>
+  </div>
+</section>

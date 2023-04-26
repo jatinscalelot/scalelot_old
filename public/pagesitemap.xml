@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+
+	<!-- India -->
+	<!-- Home -->
+	<url>
+		<loc>https://scalelot.com/</loc>
+		<changefreq>always</changefreq>
+		<priority>1.0</priority>
+	</url>
+	
+	<!-- About Us -->
+	<url>
+		<loc>https://scalelot.com/about-us</loc>
+		<changefreq>always</changefreq>
+		<priority>1.0</priority>
+	</url>
+	
+	<!-- Services -->
+	<url>
+		<loc>https://scalelot.com/services</loc>
+		<changefreq>always</changefreq>
+		<priority>1.0</priority>
+	</url>
+	
+	<!-- Web Development -->
+	<url>
+		<loc>https://scalelot.com/services/web-development</loc>
+		<changefreq>always</changefreq>
+		<priority>1.0</priority>
+	</url>
+	
+	<url>
+		<loc>https://scalelot.com/services/web-development/angular-development</loc>
+		<changefreq>always</changefreq>
+		<priority>1.0</priority>
+	</url>
+	
+	<url>
+		<loc>https://scalelot.com/services/web-development/reactjs-development</loc>
+		<changefreq>always</changefreq>
+		<priority>1.0</priority>
+	</url>
+	
+	<url>
+		<loc>https://scalelot.com/services/web-development/nodejs-development</loc>
+		<changefreq>always</changefreq>
+		<priority>1.0</priority>
+	</url>
+	
+	<url>
+		<loc>https://scalelot.com/services/web-development/python-development</loc>
+		<changefreq>always</changefreq>
+		<priority>1.0</priority>
+	</url>
+	
+	<url>
+		<loc>https://scalelot.com/services/web-development/html5-development</loc>
+		<changefreq>always</changefreq>
+		<priority>1.0</priority>
+	</url>
+	
+	<url>
+		<loc>https://scalelot.com/services/web-development/wordpress-development</loc>
+		<changefreq>always</changefreq>
+		<priority>1.0</priority>
+	</url>
+	
+	<url>
+		<loc>https://scalelot.com/services/web-development/magento-development</loc>
+		<changefreq>always</changefreq>
+		<priority>1.0</priority>
+	</url>
+	
+	<url>
+		<loc>https://scalelot.com/services/web-development/woocommerce-development</loc>
+		<changefreq>always</changefreq>
+		<priority>1.0</priority>
+	</url>
+	
+	<url>
+		<loc>https://scalelot.com/services/web-development/shopify-development</loc>
+		<changefreq>always</changefreq>
+		<priority>1.0</priority>
+	</url>
+	
+	<url>
+		<loc>https://scalelot.com/services/web-development/cms-website-development</loc>
+		<changefreq>always</changefreq>
+		<priority>1.0</priority>
+	</url>
+	
+	<url>
+		<loc>https://scalelot.com/services/web-development/mongodb-database-design</loc>
+		<changefreq>always</changefreq>
+		<priority>1.0</priority>
+	</url>
+	
+	<url>
+		<loc>https://scalelot.com/services/web-development/mysql-database-design</loc>
+		<changefreq>always</changefreq>
+		<priority>1.0</priority>
+	</url>
+		
+	<!-- Sales Funnels -->
+	<url>
+		<loc>https://scalelot.com/services/sales-funnels-design</loc>
+		<changefreq>always</changefreq>
+		<priority>1.0</priority>
+	</url>
+			
+	<!-- Mobile App Development -->
+	<url>
+		<loc>https://scalelot.com/services/mobile-app-development</loc>
+		<changefreq>always</changefreq>
+		<priority>1.0</priority>
+	</url>
+	
+	<url>
+		<loc>https://scalelot.com/services/mobile-app-development/ios-app-development</loc>
+		<changefreq>always</changefreq>
+		<priority>1.0</priority>
+	</url>
+	
+	<url>
+		<loc>https://scalelot.com/services/mobile-app-development/android-app-development</loc>
+		<changefreq>always</changefreq>
+		<priority>1.0</priority>
+	</url>
+	
+	<url>
+		<loc>https://scalelot.com/services/mobile-app-development/hybrid-app-development</loc>
+		<changefreq>always</changefreq>
+		<priority>1.0</priority>
+	</url>
+	
+	<url>
+		<loc>https://scalelot.com/services/mobile-app-development/flutter-app-development</loc>
+		<changefreq>always</changefreq>
+		<priority>1.0</priority>
+	</url>
+	
+	<url>
+		<loc>https://scalelot.com/services/mobile-app-development/react-native-app-development</loc>
+		<changefreq>always</changefreq>
+		<priority>1.0</priority>
+	</url>
+	
+	<!-- UI/UX Design -->
+	<url>
+		<loc>https://scalelot.com/services/ui-ux-design</loc>
+		<changefreq>always</changefreq>
+		<priority>1.0</priority>
+	</url>
+	
+	<url>
+		<loc>https://scalelot.com/services/ui-ux-design/mobile-app-design</loc>
+		<changefreq>always</changefreq>
+		<priority>1.0</priority>
+	</url>
+	
+	<url>
+		<loc>https://scalelot.com/services/ui-ux-design/website-design</loc>
+		<changefreq>always</changefreq>
+		<priority>1.0</priority>
+	</url>
+	
+	<url>
+		<loc>https://scalelot.com/services/ui-ux-design/web-app-design</loc>
+		<changefreq>always</changefreq>
+		<priority>1.0</priority>
+	</url>
+		
+	<url>
+		<loc>https://scalelot.com/services/ui-ux-design/game-design</loc>
+		<changefreq>always</changefreq>
+		<priority>1.0</priority>
+	</url>
+	
+	<url>
+		<loc>https://scalelot.com/services/ui-ux-design/website-revamp-design</loc>
+		<changefreq>always</changefreq>
+		<priority>1.0</priority>
+	</url>
+	
+	<!-- Graphic Design -->
+	<url>
+		<loc>https://scalelot.com/services/graphic-design</loc>
+		<changefreq>always</changefreq>
+		<priority>1.0</priority>
+	</url>
+	
+	<url>
+		<loc>https://scalelot.com/services/graphic-design/logo-design</loc>
+		<changefreq>always</changefreq>
+		<priority>1.0</priority>
+	</url>
+	
+	<url>
+		<loc>https://scalelot.com/services/graphic-design/branding-design</loc>
+		<changefreq>always</changefreq>
+		<priority>1.0</priority>
+	</url>
+	
+	<url>
+		<loc>https://scalelot.com/services/graphic-design/mockups-design</loc>
+		<changefreq>always</changefreq>
+		<priority>1.0</priority>
+	</url>
+	
+	<url>
+		<loc>https://scalelot.com/services/graphic-design/infographic-design</loc>
+		<changefreq>always</changefreq>
+		<priority>1.0</priority>
+	</url>
+	
+	<url>
+		<loc>https://scalelot.com/services/graphic-design/social-media-post-design</loc>
+		<changefreq>always</changefreq>
+		<priority>1.0</priority>
+	</url>
+	
+	<url>
+		<loc>https://scalelot.com/services/graphic-design/banner-design</loc>
+		<changefreq>always</changefreq>
+		<priority>1.0</priority>
+	</url>
+	
+	<!-- Digital Marketing -->
+	<url>
+		<loc>https://scalelot.com/services/digital-marketing</loc>
+		<changefreq>always</changefreq>
+		<priority>1.0</priority>
+	</url>
+	
+	<url>
+		<loc>https://scalelot.com/services/digital-marketing/seo</loc>
+		<changefreq>always</changefreq>
+		<priority>1.0</priority>
+	</url>
+	
+	<url>
+		<loc>https://scalelot.com/services/digital-marketing/sem-ppc</loc>
+		<changefreq>always</changefreq>
+		<priority>1.0</priority>
+	</url>
+	
+	<url>
+		<loc>https://scalelot.com/services/digital-marketing/smm</loc>
+		<changefreq>always</changefreq>
+		<priority>1.0</priority>
+	</url>
+	
+	<!-- Work -->
+	<url>
+		<loc>https://scalelot.com/work</loc>
+		<changefreq>always</changefreq>
+		<priority>1.0</priority>
+	</url>
+		
+	<url>
+		<loc>https://scalelot.com/work/portfolio</loc>
+		<changefreq>always</changefreq>
+		<priority>1.0</priority>
+	</url>
+		
+	<url>
+		<loc>https://scalelot.com/work/testimonials</loc>
+		<changefreq>always</changefreq>
+		<priority>1.0</priority>
+	</url>
+	
+	<!-- Career -->
+	<url>
+		<loc>https://scalelot.com/career</loc>
+		<changefreq>always</changefreq>
+		<priority>1.0</priority>
+	</url>
+	
+	<!-- Contact US -->
+	<url>
+		<loc>https://scalelot.com/contact-us</loc>
+		<changefreq>always</changefreq>
+		<priority>1.0</priority>
+	</url>
+	
+	<!-- FAQ -->
+	<url>
+		<loc>https://scalelot.com/faq</loc>
+		<changefreq>always</changefreq>
+		<priority>1.0</priority>
+	</url>
+	
+	<!-- HTML Sitemap -->
+	<url>
+		<loc>https://scalelot.com/html-sitemap</loc>
+		<changefreq>always</changefreq>
+		<priority>1.0</priority>
+	</url>
+		
+	<!-- Offshore -->
+	<url>
+		<loc>https://scalelot.com/offshore</loc>
+		<changefreq>always</changefreq>
+		<priority>1.0</priority>
+	</url>
+</urlset>

@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="73.179" height="83.525" viewBox="0 0 73.179 83.525">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #e9ca32;
+      }
+
+      .cls-2 {
+        fill: #ffde25;
+      }
+
+      .cls-3 {
+        fill: #fff;
+      }
+    </style>
+  </defs>
+  <g id="javascript" transform="translate(0)">
+    <path id="Path_4067" data-name="Path 4067" class="cls-1" d="M6.128,74.886,0,0,73.179.15,66.7,74.886,36.865,83.525Z" transform="translate(0)"/>
+    <path id="Path_4068" data-name="Path 4068" class="cls-2" d="M62.468,81.246V12.085l30.135.1L87.23,74.063Z" transform="translate(-25.603 -4.953)"/>
+    <g id="Group_712" data-name="Group 712" transform="translate(12.098 15.344)">
+      <path id="Path_4069" data-name="Path 4069" class="cls-3" d="M42.04,26H34.073V72.032l-6.2-1.18v-6.2L20.5,63.474V77.343l21.54,5.606Zm5.976,0H70.073L68.6,34.823H56.437V49.3H68.6L67.122,78.523l-19.1,4.426V73.8l12.908-4.426.745-12.1L48.017,59.255Z" transform="translate(-20.5 -26)"/>
+    </g>
+  </g>
+</svg>

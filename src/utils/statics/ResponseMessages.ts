@@ -4,6 +4,7 @@ export default class ResponseMessages {
     public static get CREATE_PORTFOLIO_PROJECT_SUCCESS(): string{return "Portfolio project created successfully"}
     public static get LOGIN_SUCCESS(): string{return "Logged in suuccessfully"}
     public static get FETCH_ALL_CONTACT_US_SUCCESS(): string{return "Fetch all Contact US Query Success"}
+    public static get FETCH_ALL_CONTACT_US_ERROR() { return "Please fill all required fields & captcha"; }
 
     // public static get SMS_CREATE_SUCCESS(): string{return "SMS created successfully"}
     // public static get SMS_SEND_SUCCESS(): string{return "SMS sent successfully"}

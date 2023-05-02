@@ -6,5 +6,6 @@ class ResponseMessages {
     static get CREATE_PORTFOLIO_PROJECT_SUCCESS() { return "Portfolio project created successfully"; }
     static get LOGIN_SUCCESS() { return "Logged in suuccessfully"; }
     static get FETCH_ALL_CONTACT_US_SUCCESS() { return "Fetch all Contact US Query Success"; }
+    static get FETCH_ALL_CONTACT_US_ERROR() { return "Please fill all required fields & captcha"; }
 }
 exports.default = ResponseMessages;

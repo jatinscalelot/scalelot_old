@@ -28,26 +28,23 @@ export default class ContactUsController {
     }
 
     private async addContactUsQuery(req: any, res: any) {
-        Logger.debug("New Contact US requested.");
-
-        let files: FileDTO[] = [];
-        let contactUs: ContactUs = plainToInstance(ContactUs, req.body, {excludeExtraneousValues: true});
-
-        if (req.files && req.files.length != 0) {
-            files = req.files.map((file: any) => {
-                let fileDTO: FileDTO = plainToInstance(FileDTO, file, {excludeExtraneousValues: true});
-                fileDTO.buffer = file.buffer.toString("base64");
-                return fileDTO;
-            });
+        if(req.body['g-recaptcha-response'] === undefined || req.body['g-recaptcha-response'] === '' || req.body['g-recaptcha-response'] === null){
+            return res.redirect("/#contactUs?errors");
+        } else {
+            Logger.debug("New Contact US requested.");
+            let files: FileDTO[] = [];
+            let contactUs: ContactUs = plainToInstance(ContactUs, req.body, {excludeExtraneousValues: true});
+            if (req.files && req.files.length != 0) {
+                files = req.files.map((file: any) => {
+                    let fileDTO: FileDTO = plainToInstance(FileDTO, file, {excludeExtraneousValues: true});
+                    fileDTO.buffer = file.buffer.toString("base64");
+                    return fileDTO;
+                });
+            }
+            contactUs = await this._contactUsService.addContactUsQuery(contactUs, files);
+            return res.redirect("/thanks");
         }
-
-        contactUs = await this._contactUsService.addContactUsQuery(contactUs, files);
-
-        return res.redirect("/thanks");
-
-        // return new SuccessResponse(ResponseMessages.CREATE_CAREER_SUCCESS, contactUs).send(res);
     }
-
     private async getAllContactUsQuery(req: ProtectedRequest, res: any) {
         Logger.debug("Fetching all contact us query");
 

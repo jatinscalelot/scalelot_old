@@ -29,7 +29,7 @@ export default class ContactUsController {
 
     private async addContactUsQuery(req: any, res: any) {
         if(req.body['g-recaptcha-response'] === undefined || req.body['g-recaptcha-response'] === '' || req.body['g-recaptcha-response'] === null){
-            return res.redirect("/#contactUs?errors");
+            // return res.redirect("/#contactUs?errors");
         } else {
             Logger.debug("New Contact US requested.");
             let files: FileDTO[] = [];

@@ -28,9 +28,9 @@ export default class ContactUsController {
     }
 
     private async addContactUsQuery(req: any, res: any) {
-        if(req.body['g-recaptcha-response'] === undefined || req.body['g-recaptcha-response'] === '' || req.body['g-recaptcha-response'] === null){
-            // return res.redirect("/#contactUs?errors");
-        } else {
+        // if(req.body['g-recaptcha-response'] === undefined || req.body['g-recaptcha-response'] === '' || req.body['g-recaptcha-response'] === null){
+        //     // return res.redirect("/#contactUs?errors");
+        // } else {
             Logger.debug("New Contact US requested.");
             let files: FileDTO[] = [];
             let contactUs: ContactUs = plainToInstance(ContactUs, req.body, {excludeExtraneousValues: true});
@@ -43,7 +43,7 @@ export default class ContactUsController {
             }
             contactUs = await this._contactUsService.addContactUsQuery(contactUs, files);
             return res.redirect("/thanks");
-        }
+        // }
     }
     private async getAllContactUsQuery(req: ProtectedRequest, res: any) {
         Logger.debug("Fetching all contact us query");

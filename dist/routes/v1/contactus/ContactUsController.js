@@ -35,7 +35,7 @@ let ContactUsController = class ContactUsController {
     }
     async addContactUsQuery(req, res) {
         if (req.body['g-recaptcha-response'] === undefined || req.body['g-recaptcha-response'] === '' || req.body['g-recaptcha-response'] === null) {
-            return res.redirect("/#contactUs?errors");
+            // return res.redirect("/#contactUs?errors");
         }
         else {
             Logger_1.default.debug("New Contact US requested.");

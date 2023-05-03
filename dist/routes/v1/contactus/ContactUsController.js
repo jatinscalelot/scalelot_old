@@ -22,6 +22,7 @@ const ContactUsService_1 = __importDefault(require("../../../service/ContactUsSe
 const ContactUs_1 = __importDefault(require("../../../dto/ContactUs"));
 const class_transformer_1 = require("class-transformer");
 const FileDTO_1 = __importDefault(require("../../../dto/FileDTO"));
+const request = require('request');
 let ContactUsController = class ContactUsController {
     constructor(contactUsService) {
         this._router = express_1.default.Router();
@@ -35,9 +36,15 @@ let ContactUsController = class ContactUsController {
     }
     async addContactUsQuery(req, res) {
         if (req.body['g-recaptcha-response'] === undefined || req.body['g-recaptcha-response'] === '' || req.body['g-recaptcha-response'] === null) {
-            // return res.redirect("/#contactUs?errors");
+            return res.json({ "responseError": "captcha error" });
         }
-        else {
+        const secretKey = "6LeM4dglAAAAALPLbqh0jn9nQ9lLEbLuWfr9OfFX";
+        const verificationURL = "https://www.google.com/recaptcha/api/siteverify?secret=" + secretKey + "&response=" + req.body['g-recaptcha-response'] + "&remoteip=" + req.connection.remoteAddress;
+        request(verificationURL, function (body) {
+            body = JSON.parse(body);
+            if (body.success !== undefined && !body.success) {
+                return res.json({ "responseError": "Failed captcha verification" });
+            }
             Logger_1.default.debug("New Contact US requested.");
             let files = [];
             let contactUs = (0, class_transformer_1.plainToInstance)(ContactUs_1.default, req.body, { excludeExtraneousValues: true });
@@ -48,9 +55,25 @@ let ContactUsController = class ContactUsController {
                     return fileDTO;
                 });
             }
-            contactUs = await this._contactUsService.addContactUsQuery(contactUs, files);
+            contactUs = this._contactUsService.addContactUsQuery(contactUs, files);
             return res.redirect("/thanks");
-        }
+        });
+        // if (req.body['g-recaptcha-response'] === undefined || req.body['g-recaptcha-response'] === '' || req.body['g-recaptcha-response'] === null) {
+        //     // return res.redirect("/#contactUs?errors");
+        // } else {
+        //     Logger.debug("New Contact US requested.");
+        //     let files: FileDTO[] = [];
+        //     let contactUs: ContactUs = plainToInstance(ContactUs, req.body, { excludeExtraneousValues: true });
+        //     if (req.files && req.files.length != 0) {
+        //         files = req.files.map((file: any) => {
+        //             let fileDTO: FileDTO = plainToInstance(FileDTO, file, { excludeExtraneousValues: true });
+        //             fileDTO.buffer = file.buffer.toString("base64");
+        //             return fileDTO;
+        //         });
+        //     }
+        //     contactUs = await this._contactUsService.addContactUsQuery(contactUs, files);
+        //     return res.redirect("/thanks");
+        // }
     }
     async getAllContactUsQuery(req, res) {
         Logger_1.default.debug("Fetching all contact us query");

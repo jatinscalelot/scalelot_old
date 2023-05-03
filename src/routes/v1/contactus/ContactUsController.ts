@@ -1,16 +1,14 @@
-import { autoInjectable } from "tsyringe";
-import express, { Router } from "express";
+import {autoInjectable} from "tsyringe";
+import express, {Router} from "express";
 import Logger from "../../../utils/Logger";
 import AsyncHandler from "../../../utils/AsyncHandler";
-import { SuccessResponse } from "../../../utils/ApiResponse";
+import {SuccessResponse} from "../../../utils/ApiResponse";
 import ResponseMessages from "../../../utils/statics/ResponseMessages";
 import ContactUsService from "../../../service/ContactUsService";
 import ContactUs from "../../../dto/ContactUs";
-import { plainToInstance } from "class-transformer";
-import { ProtectedRequest } from "../../../utils/app-request";
+import {plainToInstance} from "class-transformer";
+import {ProtectedRequest} from "../../../utils/app-request";
 import FileDTO from "../../../dto/FileDTO";
-
-const request = require('request');
 
 @autoInjectable()
 export default class ContactUsController {
@@ -30,41 +28,15 @@ export default class ContactUsController {
     }
 
     private async addContactUsQuery(req: any, res: any) {
-        // if (req.body['g-recaptcha-response'] === undefined || req.body['g-recaptcha-response'] === '' || req.body['g-recaptcha-response'] === null) {
-        //     return res.json({ "responseError": "captcha error" });
-        // }
-        // const secretKey = "6LeM4dglAAAAALPLbqh0jn9nQ9lLEbLuWfr9OfFX";
-        // const verificationURL = "https://www.google.com/recaptcha/api/siteverify?secret=" + secretKey + "&response=" + req.body['g-recaptcha-response'] + "&remoteip=" + req.connection.remoteAddress;
-
-        // request(verificationURL, function (body: any) {
-        //     body = JSON.parse(body);
-        //     if (body.success !== undefined && !body.success) {
-        //         return res.json({ "responseError": "Failed captcha verification" });
-        //     }
-        //     Logger.debug("New Contact US requested.");
-        //     let files: FileDTO[] = [];
-        //     let contactUs: ContactUs = plainToInstance(ContactUs, req.body, { excludeExtraneousValues: true });
-        //     if (req.files && req.files.length != 0) {
-        //         files = req.files.map((file: any) => {
-        //             let fileDTO: FileDTO = plainToInstance(FileDTO, file, { excludeExtraneousValues: true });
-        //             fileDTO.buffer = file.buffer.toString("base64");
-        //             return fileDTO;
-        //         });
-        //     }
-        //     contactUs = this._contactUsService.addContactUsQuery(contactUs, files);
-        //     return res.redirect("/thanks");
-        // });
-
-
-        if (req.body['g-recaptcha-response'] === undefined || req.body['g-recaptcha-response'] === '' || req.body['g-recaptcha-response'] === null) {
+        if(req.body['g-recaptcha-response'] === undefined || req.body['g-recaptcha-response'] === '' || req.body['g-recaptcha-response'] === null){
             // return res.redirect("/#contactUs?errors");
         } else {
             Logger.debug("New Contact US requested.");
             let files: FileDTO[] = [];
-            let contactUs: ContactUs = plainToInstance(ContactUs, req.body, { excludeExtraneousValues: true });
+            let contactUs: ContactUs = plainToInstance(ContactUs, req.body, {excludeExtraneousValues: true});
             if (req.files && req.files.length != 0) {
                 files = req.files.map((file: any) => {
-                    let fileDTO: FileDTO = plainToInstance(FileDTO, file, { excludeExtraneousValues: true });
+                    let fileDTO: FileDTO = plainToInstance(FileDTO, file, {excludeExtraneousValues: true});
                     fileDTO.buffer = file.buffer.toString("base64");
                     return fileDTO;
                 });

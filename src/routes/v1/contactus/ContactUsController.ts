@@ -30,35 +30,17 @@ export default class ContactUsController {
     }
 
     private async addContactUsQuery(req: any, res: any) {
-        if (req.body['g-recaptcha-response'] === undefined || req.body['g-recaptcha-response'] === '' || req.body['g-recaptcha-response'] === null) {
-            return res.json({ "responseError": "captcha error" });
-        }
-        const secretKey = "6LeM4dglAAAAALPLbqh0jn9nQ9lLEbLuWfr9OfFX";
-        const verificationURL = "https://www.google.com/recaptcha/api/siteverify?secret=" + secretKey + "&response=" + req.body['g-recaptcha-response'] + "&remoteip=" + req.connection.remoteAddress;
-
-        request(verificationURL, function (body: any) {
-            body = JSON.parse(body);
-            if (body.success !== undefined && !body.success) {
-                return res.json({ "responseError": "Failed captcha verification" });
-            }
-            Logger.debug("New Contact US requested.");
-            let files: FileDTO[] = [];
-            let contactUs: ContactUs = plainToInstance(ContactUs, req.body, { excludeExtraneousValues: true });
-            if (req.files && req.files.length != 0) {
-                files = req.files.map((file: any) => {
-                    let fileDTO: FileDTO = plainToInstance(FileDTO, file, { excludeExtraneousValues: true });
-                    fileDTO.buffer = file.buffer.toString("base64");
-                    return fileDTO;
-                });
-            }
-            contactUs = this._contactUsService.addContactUsQuery(contactUs, files);
-            return res.redirect("/thanks");
-        });
-
-
         // if (req.body['g-recaptcha-response'] === undefined || req.body['g-recaptcha-response'] === '' || req.body['g-recaptcha-response'] === null) {
-        //     // return res.redirect("/#contactUs?errors");
-        // } else {
+        //     return res.json({ "responseError": "captcha error" });
+        // }
+        // const secretKey = "6LeM4dglAAAAALPLbqh0jn9nQ9lLEbLuWfr9OfFX";
+        // const verificationURL = "https://www.google.com/recaptcha/api/siteverify?secret=" + secretKey + "&response=" + req.body['g-recaptcha-response'] + "&remoteip=" + req.connection.remoteAddress;
+
+        // request(verificationURL, function (body: any) {
+        //     body = JSON.parse(body);
+        //     if (body.success !== undefined && !body.success) {
+        //         return res.json({ "responseError": "Failed captcha verification" });
+        //     }
         //     Logger.debug("New Contact US requested.");
         //     let files: FileDTO[] = [];
         //     let contactUs: ContactUs = plainToInstance(ContactUs, req.body, { excludeExtraneousValues: true });
@@ -69,9 +51,27 @@ export default class ContactUsController {
         //             return fileDTO;
         //         });
         //     }
-        //     contactUs = await this._contactUsService.addContactUsQuery(contactUs, files);
+        //     contactUs = this._contactUsService.addContactUsQuery(contactUs, files);
         //     return res.redirect("/thanks");
-        // }
+        // });
+
+
+        if (req.body['g-recaptcha-response'] === undefined || req.body['g-recaptcha-response'] === '' || req.body['g-recaptcha-response'] === null) {
+            // return res.redirect("/#contactUs?errors");
+        } else {
+            Logger.debug("New Contact US requested.");
+            let files: FileDTO[] = [];
+            let contactUs: ContactUs = plainToInstance(ContactUs, req.body, { excludeExtraneousValues: true });
+            if (req.files && req.files.length != 0) {
+                files = req.files.map((file: any) => {
+                    let fileDTO: FileDTO = plainToInstance(FileDTO, file, { excludeExtraneousValues: true });
+                    fileDTO.buffer = file.buffer.toString("base64");
+                    return fileDTO;
+                });
+            }
+            contactUs = await this._contactUsService.addContactUsQuery(contactUs, files);
+            return res.redirect("/thanks");
+        }
     }
     private async getAllContactUsQuery(req: ProtectedRequest, res: any) {
         Logger.debug("Fetching all contact us query");
